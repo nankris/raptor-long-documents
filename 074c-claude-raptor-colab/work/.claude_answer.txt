@@ -1,0 +1,17 @@
+Experiment #074 finished: RAPTOR and flat retrieval tie at 66.9% on QuALITY with the same ~1,500-token context. The `claude-074` session is stopped, and `colab sessions` shows it gone. I did not touch any other session.
+
+| Arm | Accuracy | n | Mean context tokens |
+|---|---|---|---|
+| zero-context | 39.3% | 145 | 0 |
+| flat | 66.9% | 145 | 1471 |
+| raptor | 66.9% | 145 | 1475 |
+| full article | 75.2% | 145 | 4958 |
+
+- **Sample:** 8 articles, 145 questions. The 95% interval is about ±8 points, so the tie is not a real difference either way.
+- **Tree build:** 245 s and 82 summary calls for the 8 articles.
+- **Models:** Qwen3-4B-Instruct-2507 in fp16 as reader and summariser, with bge-small-en-v1.5 for embeddings.
+- **GPU:** L4, about 21.6 minutes, roughly 0.55 CU. The session start of ~03:39 IST comes from your resume note. I stopped it at 04:00:37 IST. Balance after the stop was 187.28 CU.
+- **Git:** I committed the repo (258a79a) without pushing. I set a repo-local git identity from your account email, since none was configured.
+- **README cost note:** the README says the Claude driver's API cost wasn't measured, so it gives no figure.
+
+Everything is in `/workspace/work/tig/074c-claude-raptor-colab/`. The raw outputs, the summary, and the progress and run logs are in `results/`. The script is at `scripts/raptor.py` and `work/raptor.py`. The repo also has the README, the chart and a short writeup.

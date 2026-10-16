@@ -1,0 +1,19 @@
+[    9.0s] cols ['article', 'question', 'options', 'answer', 'hard'] 2086
+[    9.2s] articles 8 questions 145
+[  108.3s] art 0 words=4675 nodes=60 summ_calls=13 build=39.1s qs=20
+[  161.1s] {'zero': (0.4, 20), 'flat': (0.65, 20), 'raptor': (0.75, 20), 'full': (0.8, 20)}
+[  194.2s] art 1 words=4014 nodes=53 summ_calls=12 build=33.1s qs=19
+[  235.4s] {'zero': (0.3333333333333333, 39), 'flat': (0.5641025641025641, 39), 'raptor': (0.717948717948718, 39), 'full': (0.6923076923076923, 39)}
+[  254.0s] art 2 words=1945 nodes=25 summ_calls=5 build=18.5s qs=19
+[  281.2s] {'zero': (0.3448275862068966, 58), 'flat': (0.6206896551724138, 58), 'raptor': (0.7241379310344828, 58), 'full': (0.7241379310344828, 58)}
+[  319.7s] art 3 words=5217 nodes=68 summ_calls=15 build=38.5s qs=19
+[  370.4s] {'zero': (0.3246753246753247, 77), 'flat': (0.6233766233766234, 77), 'raptor': (0.6883116883116883, 77), 'full': (0.7142857142857143, 77)}
+[  406.6s] art 4 words=4694 nodes=60 summ_calls=13 build=36.2s qs=19
+[  454.9s] {'zero': (0.34375, 96), 'flat': (0.6354166666666666, 96), 'raptor': (0.6666666666666666, 96), 'full': (0.71875, 96)}
+[  501.9s] art 5 words=4977 nodes=63 summ_calls=13 build=46.9s qs=13
+[  537.9s] {'zero': (0.3669724770642202, 109), 'flat': (0.6422018348623854, 109), 'raptor': (0.6513761467889908, 109), 'full': (0.7064220183486238, 109)}
+[  553.5s] art 6 words=2069 nodes=27 summ_calls=6 build=15.6s qs=19
+[  580.9s] {'zero': (0.390625, 128), 'flat': (0.6640625, 128), 'raptor': (0.6796875, 128), 'full': (0.7421875, 128)}
+[  597.9s] art 7 words=1915 nodes=25 summ_calls=5 build=17.0s qs=17
+[  622.0s] {'zero': (0.3931034482758621, 145), 'flat': (0.6689655172413793, 145), 'raptor': (0.6689655172413793, 145), 'full': (0.7517241379310344, 145)}
+[  622.0s] DONE {'zero': {'accuracy': 0.3931034482758621, 'n': 145, 'mean_context_tokens': 0.0}, 'flat': {'accuracy': 0.6689655172413793, 'n': 145, 'mean_context_tokens': 1471.2344827586207}, 'raptor': {'accuracy': 0.6689655172413793, 'n': 145, 'mean_context_tokens': 1475.2827586206897}, 'full': {'accuracy': 0.7517241379310344, 'n': 145, 'mean_context_tokens': 4957.613793103448}} {'seconds': 245.01203417778015, 'summary_calls': 82, 'nodes_by_level': {0: 299, 1: 63, 2: 14, 3: 5}}
