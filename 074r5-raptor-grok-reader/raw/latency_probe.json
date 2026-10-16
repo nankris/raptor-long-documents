@@ -1,0 +1,29 @@
+{
+  "text": "{\"ok\":true}",
+  "stopReason": "end_turn",
+  "sessionId": "01a142d7-489b-73f2-b529-4dde97a98059",
+  "requestId": "3fd2cb88-f568-409c-a27e-c1c994b5244f",
+  "cwd": "/workspace/work/tig/074r5-raptor-grok-reader",
+  "thought": "The user wants exactly {\"ok\":true} returned.",
+  "usage": {
+    "input_tokens": 10191,
+    "cache_read_input_tokens": 6016,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 29,
+    "reasoning_tokens": 24,
+    "total_tokens": 16236
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.00801176,
+  "total_cost_usd_ticks": 80117600,
+  "modelUsage": {
+    "grok-4.7-build": {
+      "inputTokens": 10191,
+      "outputTokens": 29,
+      "cacheReadInputTokens": 6016,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.00801176
+    }
+  }
+}

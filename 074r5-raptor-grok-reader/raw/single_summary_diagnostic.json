@@ -1,0 +1,28 @@
+{
+  "text": "{\"0\": \"Governments are moving to regulate technology giants whose influence exceeds that of many countries. Worldwide users depend on these platforms and have few alternatives if they fail. The Women's March and similar recent protests depended on online organizing. If companies, pressured by a hostile government, restrict those channels, that organizing capacity could disappear. Many American technology firms have already pledged not to help create such a system, though the pledge's object is cut off.\"}",
+  "stopReason": "end_turn",
+  "sessionId": "01a142d8-2e70-77f3-97b2-a6a887852e9c",
+  "requestId": "591493e4-3098-4fae-8e28-13ebb7477d38",
+  "cwd": "/workspace/work/tig/074r5-raptor-grok-reader",
+  "usage": {
+    "input_tokens": 6768,
+    "cache_read_input_tokens": 9600,
+    "cache_creation_input_tokens": 0,
+    "output_tokens": 270,
+    "reasoning_tokens": 179,
+    "total_tokens": 16638
+  },
+  "num_turns": 1,
+  "total_cost_usd": 0.00678504,
+  "total_cost_usd_ticks": 67850400,
+  "modelUsage": {
+    "grok-4.7-build": {
+      "inputTokens": 6768,
+      "outputTokens": 270,
+      "cacheReadInputTokens": 9600,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.00678504
+    }
+  }
+}

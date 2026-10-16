@@ -1,0 +1,7 @@
+{"event":"setup","date":"2026-10-16","note":"New round 5; original/r/r3 read only; runtime status tool and policy snapshot unavailable. No GPU sessions."}
+{"event":"model_alias_verified","selector":"grok-4.7","reported_backend":"grok-4.7-build","evidence":"raw/default_model_probe.json"}
+{"event":"data_download","source":"https://raw.githubusercontent.com/nyu-mll/quality/main/data/v1.0.1/QuALITY.v1.0.1.htmlstripped.dev","note":"Official public validation; flatten gold_label-1, preserve all questions."}
+{"time": 1792122078.0486474, "event": "resume", "model": "grok-4.7"}
+{"time": 1792122256.2936924, "event": "call_start", "key": "c4c52098477db83b4e3e02898c4d2a8ab49d0228be6c7c9eb34c067b0b342558", "kind": "summary", "attempt": 0}
+{"time": 1792122893.4339492, "event": "hung_request_recovery", "note": "First six-group summary pending >10min; heartbeat and single-group summary succeeded. Terminated own reader process; retry identical batch from cached prompt. No experimental outcomes."}
+{"time": 1792122894.7292688, "event": "resume", "model": "grok-4.7"}
