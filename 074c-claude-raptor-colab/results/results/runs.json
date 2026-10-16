@@ -1,0 +1,1491 @@
+{
+ "config": {
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "n_articles": 8,
+  "budget": 1500
+ },
+ "arms": {
+  "zero": {
+   "accuracy": 0.3931034482758621,
+   "n": 145,
+   "mean_context_tokens": 0.0
+  },
+  "flat": {
+   "accuracy": 0.6689655172413793,
+   "n": 145,
+   "mean_context_tokens": 1471.2344827586207
+  },
+  "raptor": {
+   "accuracy": 0.6689655172413793,
+   "n": 145,
+   "mean_context_tokens": 1475.2827586206897
+  },
+  "full": {
+   "accuracy": 0.7517241379310344,
+   "n": 145,
+   "mean_context_tokens": 4957.613793103448
+  }
+ },
+ "preds": [
+  {
+   "article": 0,
+   "q": "Why was Gavir brought to Earth from Mars?",
+   "gold": 2,
+   "zero": 3,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 0,
+   "q": "What was Gavir's true motivation for staying on Earth?",
+   "gold": 2,
+   "zero": 1,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 0,
+   "q": "Why are the Earthlings always \"invincibly benign?\" ",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 0,
+   "q": "Why did the Earthmen attack Gavir intially?",
+   "gold": 0,
+   "zero": 3,
+   "flat": 1,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 0,
+   "q": "Why did Gaivir go wandering around by himself after being told not to?",
+   "gold": 2,
+   "zero": 0,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 0,
+   "q": "Why did the producers of Dreaming Through the Universe like Gaivir?",
+   "gold": 2,
+   "zero": 1,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 0,
+   "q": "Why was Mr. Spurling able to speak in a hostile tone?",
+   "gold": 1,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 0,
+   "q": "What about Gaivir appealed to the century-plussers?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 0,
+   "q": "What was the silver helmet filled with wires that Gaivir put on?",
+   "gold": 1,
+   "zero": 1,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 0,
+   "q": "Why did Jarvis Spurling want to kill Gaivir?",
+   "gold": 1,
+   "zero": 1,
+   "flat": 3,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 0,
+   "q": "What is the white tube?",
+   "gold": 0,
+   "zero": 1,
+   "flat": 0,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 0,
+   "q": "What could Martians symbolize?",
+   "gold": 3,
+   "zero": 0,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 0,
+   "q": "What happens when Ethical Conditioning wears off?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 0,
+   "q": "Which of the following technologies is the dreamcast most like?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 0,
+   "q": "How do Martians tell their stories?",
+   "gold": 0,
+   "zero": 2,
+   "flat": 1,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 0,
+   "q": "What is Gavir's motivation?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 0,
+   "q": "Why can't Gavir throw his knife?",
+   "gold": 2,
+   "zero": 3,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 0,
+   "q": "Why is Blue Boy an offensive nickname?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 0,
+   "q": "What saved Gavir's life?",
+   "gold": 3,
+   "zero": 1,
+   "flat": 1,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 0,
+   "q": "Which of the following is an appropriate theme for this story?",
+   "gold": 2,
+   "zero": 1,
+   "flat": 3,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 1,
+   "q": "Where is Broom in the beginning of the story?",
+   "gold": 0,
+   "zero": 1,
+   "flat": 3,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 1,
+   "q": "Where is Broom from?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 1,
+   "q": "When was Broom born?",
+   "gold": 2,
+   "zero": 0,
+   "flat": 3,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 1,
+   "q": "What is the metal box that makes a humming sound?",
+   "gold": 1,
+   "zero": 2,
+   "flat": 3,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 1,
+   "q": "What is Broom\u2019s relationship with Contarini?",
+   "gold": 1,
+   "zero": 3,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 1,
+   "q": "What is Broom\u2019s relationship to Mr. Edward Jasperson?",
+   "gold": 2,
+   "zero": 3,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 1,
+   "q": "What did Broom go to prison for?",
+   "gold": 3,
+   "zero": 0,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 1,
+   "q": "Why doesn\u2019t Broom know where he is or who he is?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 1,
+   "q": "What war did Broom fight in?",
+   "gold": 2,
+   "zero": 3,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 1,
+   "q": "What is the twist of this story?",
+   "gold": 0,
+   "zero": 1,
+   "flat": 1,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 1,
+   "q": "When was Broom in prison?",
+   "gold": 2,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 1,
+   "q": "Why was the painting so clear?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 1,
+   "q": "Which of the following weapons was Broom most likely wishing for?",
+   "gold": 2,
+   "zero": 3,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 1,
+   "q": "How did Broom travel through time?",
+   "gold": 0,
+   "zero": 3,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 1,
+   "q": "Which of the following did Broom recognize?",
+   "gold": 1,
+   "zero": 2,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 1,
+   "q": "What is referenced as the devil Broom knows?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 1,
+   "q": "What language was Mr. Edward Jasperson speaking?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 1,
+   "q": "Why was Broom a prisoner?",
+   "gold": 1,
+   "zero": 3,
+   "flat": 0,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 1,
+   "q": "What city does Broom wake up in?",
+   "gold": 0,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 2,
+   "q": "What does the  Atomic Wonder Space Wave Tapper gadget do?",
+   "gold": 1,
+   "zero": 3,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 2,
+   "q": "Why does Biff stay to watch the demonstration?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 2,
+   "q": "What is the secret to how the gadget works?",
+   "gold": 3,
+   "zero": 0,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 2,
+   "q": "Why are Biff\u2019s friends so intrigued with the gadget?",
+   "gold": 0,
+   "zero": 1,
+   "flat": 0,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 2,
+   "q": "What distracts Biff and his friends from continuing their poker game?",
+   "gold": 3,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 2,
+   "q": "The inventors of the gadget are targeting who to buy it?",
+   "gold": 3,
+   "zero": 0,
+   "flat": 0,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 2,
+   "q": "Why did the demonstrator reduce the price to $3 for Biff?",
+   "gold": 2,
+   "zero": 3,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 2,
+   "q": "What are the inventors of the gadget hoping to achieve with it?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 2,
+   "q": "What have the inventors of the gadget patented?",
+   "gold": 1,
+   "zero": 0,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 2,
+   "q": "How are the inventors of the gadget hoping to get rich?",
+   "gold": 0,
+   "zero": 0,
+   "flat": 0,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 2,
+   "q": "Why did all the kids leave the Atomic Wonder Space Wave Trapper?",
+   "gold": 2,
+   "zero": 3,
+   "flat": 0,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 2,
+   "q": "What loophole will get other people to do the work and research of the creators of the Atomic Wonder for them?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 2,
+   "q": "Why did Biff buy the toy?",
+   "gold": 0,
+   "zero": 2,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 2,
+   "q": "What will likely happen with the Atomic Wonder?",
+   "gold": 0,
+   "zero": 3,
+   "flat": 0,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 2,
+   "q": "What will cause the buyers to research the toy?",
+   "gold": 1,
+   "zero": 0,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 2,
+   "q": "Why wasn't anyone interested in the coils before the toy?",
+   "gold": 2,
+   "zero": 0,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 2,
+   "q": "Which of the following jobs helped someone recognize the trick of the toy?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 2,
+   "q": "What was ironic about the colonel saying that all good illusions are simple?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 2,
+   "q": "Which of the following most accurately represents how much money they lost selling the toy to the colonel?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 3,
+   "q": "What was the accident prone's job on this mission?",
+   "gold": 0,
+   "zero": 1,
+   "flat": 0,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 3,
+   "q": "What does the captain think causes people like Baxter to exist?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 3,
+   "q": "How did all the efforts to protect Baxter make him feel?",
+   "gold": 0,
+   "zero": 1,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 3,
+   "q": "Who had the nicest place to sleep?",
+   "gold": 0,
+   "zero": 1,
+   "flat": 0,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 3,
+   "q": "Why couldn't Baxter use his own bathroom?",
+   "gold": 3,
+   "zero": 1,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 3,
+   "q": "Why did Charlie tell the natives he was their brother?",
+   "gold": 1,
+   "zero": 2,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 3,
+   "q": "Why did the captain stop the guard from defending the accident-prone?",
+   "gold": 1,
+   "zero": 2,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 3,
+   "q": "How did the captain stop the alien attack?",
+   "gold": 1,
+   "zero": 1,
+   "flat": 0,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 3,
+   "q": "Why did the captain lie to Baxter about how the fight ended?",
+   "gold": 3,
+   "zero": 1,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 3,
+   "q": "How many times did the crew of the expedition leave their spaceship to explore the planet during the course of the story?",
+   "gold": 1,
+   "zero": 2,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 3,
+   "q": "What is the relationship like between Charlie and the captain?",
+   "gold": 3,
+   "zero": 0,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 3,
+   "q": "Why was the approach that Charlie took to engage with the aliens unsuccessful?",
+   "gold": 0,
+   "zero": 1,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 3,
+   "q": "What was the relationship like between Eliott, Sidney and Charlie?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 3,
+   "q": "What thesis does Charlie present to the Moranites?",
+   "gold": 1,
+   "zero": 2,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 3,
+   "q": "Who lives on the planet being explored?",
+   "gold": 2,
+   "zero": 3,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 3,
+   "q": "What is the status of Charlie on the ship?",
+   "gold": 0,
+   "zero": 3,
+   "flat": 0,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 3,
+   "q": "What is the relationship like between Bronoski and the captain?",
+   "gold": 1,
+   "zero": 1,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 3,
+   "q": "What is the classification most highly paid in the ship?",
+   "gold": 1,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 3,
+   "q": "What was Charlie\u2019s assessment of his role through the story?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 3,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 4,
+   "q": "Who is the murderer for which Bo listens for footsteps?",
+   "gold": 3,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 4,
+   "q": "Why was the murderer trying to kill Bo?",
+   "gold": 0,
+   "zero": 3,
+   "flat": 0,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 4,
+   "q": "How was Bo unusual compared to his colleagues?",
+   "gold": 2,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 4,
+   "q": "What is Achilles?",
+   "gold": 1,
+   "zero": 1,
+   "flat": 1,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 4,
+   "q": "What was the dog?",
+   "gold": 2,
+   "zero": 0,
+   "flat": 2,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 4,
+   "q": "Why did Johnny like the Last Chance?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 4,
+   "q": "Why did Johnny say Dr. McKittrick wasn't sociable?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 4,
+   "q": "Why did Bo not want to get drunk at first but later the same night he chose to get drunk?",
+   "gold": 0,
+   "zero": 2,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 4,
+   "q": "Why did Lundgard not ride home on his original ship?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 4,
+   "q": "In his solitude, who did Bo consider more than once to be his companions?",
+   "gold": 2,
+   "zero": 3,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 4,
+   "q": "What did these companions from his solitude think of Bo in return?",
+   "gold": 0,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 4,
+   "q": "What is one thing that Bo takes solace in when he knows he is being hunted by the other man?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 4,
+   "q": "What is the fate of Bo's partner?",
+   "gold": 0,
+   "zero": 1,
+   "flat": 2,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 4,
+   "q": "Why does Bo say that rockhounds will never become rich?",
+   "gold": 1,
+   "zero": 0,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 4,
+   "q": "Bo has always felt inferior to others intellectually.  How does Johnny try to convince him that that he is wrong?",
+   "gold": 0,
+   "zero": 3,
+   "flat": 0,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 4,
+   "q": "What does Bo profess attracts him to the doctor?",
+   "gold": 0,
+   "zero": 0,
+   "flat": 0,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 4,
+   "q": "How does the enemy ultimately end up wounding Bo?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 4,
+   "q": "Why would Bo not be allowed to take a ship back to Earth by himself?",
+   "gold": 2,
+   "zero": 0,
+   "flat": 0,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 4,
+   "q": "How does Lundgard end up getting left behind and needing a companion back to Earth?",
+   "gold": 1,
+   "zero": 1,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 5,
+   "q": "What is Sylvia's relation to Paul?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 5,
+   "q": "What edge did the Americans have over the Reds in the air?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 5,
+   "q": "What is implied that happened to the American Moon station?",
+   "gold": 0,
+   "zero": 1,
+   "flat": 0,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 5,
+   "q": "What is unorthodox about Coulter and Garrities' navigation?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 5,
+   "q": "Why did Paul think that \"these three minutes\" were the worst?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 5,
+   "q": "What was the ping sound that Coulter heard?",
+   "gold": 0,
+   "zero": 1,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 5,
+   "q": "What was Paul's solution for not having to be in broadside battles anymore?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 5,
+   "q": "Why did Paul invite Kovacs to the cottage with Sylvia?",
+   "gold": 1,
+   "zero": 0,
+   "flat": 3,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 5,
+   "q": "Which old lady helps Coulter return home?",
+   "gold": 1,
+   "zero": 3,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 5,
+   "q": "Why did the Moon stations blow up?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 5,
+   "q": "Which of the following does the title of the story likely reference?",
+   "gold": 1,
+   "zero": 1,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 5,
+   "q": "Why does Coulter help Kovacs on leave?",
+   "gold": 3,
+   "zero": 1,
+   "flat": 3,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 5,
+   "q": "What was the ping that Coulter heard?",
+   "gold": 1,
+   "zero": 0,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 6,
+   "q": "What was really making Joseph Partch feel so irritable?",
+   "gold": 1,
+   "zero": 2,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 6,
+   "q": "Why did the factory play the song \"Slam Bang Boom\" multiple times?",
+   "gold": 3,
+   "zero": 1,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 6,
+   "q": "How was Joseph Partch originally planning on addressing his negative feelings?",
+   "gold": 1,
+   "zero": 1,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 6,
+   "q": "What was the device that Bob Wills had invented?",
+   "gold": 1,
+   "zero": 3,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 6,
+   "q": "What did Mr. Partch need to speak with his therapist about?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 6,
+   "q": "Why did Mr. Partch want to be left alone?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 6,
+   "q": "What caused Mr. Partch to try out Mr. Wills' new invention?",
+   "gold": 1,
+   "zero": 1,
+   "flat": 0,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 6,
+   "q": "Why did Mr. Partch think that society involved constant noises and sounds?",
+   "gold": 1,
+   "zero": 0,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 6,
+   "q": "How was Mr. Partch transported to the forest?",
+   "gold": 1,
+   "zero": 1,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 6,
+   "q": "What caused Mr. Partch to become catatonic?",
+   "gold": 0,
+   "zero": 1,
+   "flat": 0,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 6,
+   "q": "What is the real reason that Mr. Partch feels melancholy?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 6,
+   "q": "How many times was Bob\u2019s machine tested?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 6,
+   "q": "Who are the people that desire silence in the story?",
+   "gold": 3,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 6,
+   "q": "What is a common theme in the sounds that Mr. Partch is hearing?",
+   "gold": 2,
+   "zero": 1,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 6,
+   "q": "Which of the following is NOT a feeling Mr. Partch transitions through in the story?",
+   "gold": 1,
+   "zero": 1,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 6,
+   "q": "What is the primary problem Bob is trying to solve with his invention?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 6,
+   "q": "What is the relationship like between Bob and Mr. Partch?",
+   "gold": 0,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 6,
+   "q": "When there was music playing on the speakers in the office, what was favored?",
+   "gold": 0,
+   "zero": 0,
+   "flat": 0,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 6,
+   "q": "What is the importance of the National Mental Health society to the story?",
+   "gold": 1,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 7,
+   "q": "How is the beginning of Topsy-Turvy described?",
+   "gold": 1,
+   "zero": 2,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 7,
+   "q": "When does Topsy-Turvy's plot begin to get interesting?",
+   "gold": 1,
+   "zero": 0,
+   "flat": 0,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 7,
+   "q": "How does the author feel about the way Topsy-Turvy goes and back forth in time?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 0,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 7,
+   "q": "How does the author feel about Topsy-Turvy?",
+   "gold": 2,
+   "zero": 2,
+   "flat": 2,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 7,
+   "q": "Mr. Death is a documentary about what?",
+   "gold": 0,
+   "zero": 0,
+   "flat": 0,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 7,
+   "q": "What is Fred D. Leuchter famous for?",
+   "gold": 1,
+   "zero": 1,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 7,
+   "q": "What is the author\u2019s major criticism of the documentary Mr. Death?",
+   "gold": 2,
+   "zero": 1,
+   "flat": 2,
+   "raptor": 2,
+   "raptor_levels": null,
+   "full": 2
+  },
+  {
+   "article": 7,
+   "q": "How does the author feel about the documentary?",
+   "gold": 1,
+   "zero": 3,
+   "flat": 1,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 7,
+   "q": "Does the author think that Topsy-Turvy is a good movie?",
+   "gold": 0,
+   "zero": 3,
+   "flat": 0,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 7,
+   "q": "Does the author think that Mr. Death: The Rise and Fall of Fred D. Leuchter, Jr. is a good documentary?",
+   "gold": 0,
+   "zero": 2,
+   "flat": 0,
+   "raptor": 0,
+   "raptor_levels": null,
+   "full": 0
+  },
+  {
+   "article": 7,
+   "q": "According to the author, what is Topsy-Turvy about?",
+   "gold": 1,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 7,
+   "q": "Does Morris dislike Leuchter?",
+   "gold": 1,
+   "zero": 3,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 7,
+   "q": "Why does they author write about these two different movies within the same article?",
+   "gold": 1,
+   "zero": 0,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 1
+  },
+  {
+   "article": 7,
+   "q": "Which of the following is shared between Topsy-Turvy and Mr. Death?",
+   "gold": 2,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 7,
+   "q": "Which of the following did Topsy-Turvy do better than Mr. Death?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 7,
+   "q": "How does Leigh likely feel about Gilbert and Sullivan?",
+   "gold": 3,
+   "zero": 3,
+   "flat": 3,
+   "raptor": 3,
+   "raptor_levels": null,
+   "full": 3
+  },
+  {
+   "article": 7,
+   "q": "Why is Leuchter a hero to neo-Nazis?",
+   "gold": 1,
+   "zero": 1,
+   "flat": 1,
+   "raptor": 1,
+   "raptor_levels": null,
+   "full": 1
+  }
+ ],
+ "tree_build": {
+  "seconds": 245.01203417778015,
+  "summary_calls": 82,
+  "nodes_by_level": {
+   "0": 299,
+   "1": 63,
+   "2": 14,
+   "3": 5
+  }
+ }
+}
