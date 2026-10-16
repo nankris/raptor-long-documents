@@ -1,0 +1,1208 @@
+{
+  "meta": {
+    "story": 7,
+    "id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+    "title": "Brewster's Millions",
+    "words": 62667,
+    "tokens": 86145,
+    "build_seconds": 447.30667638778687,
+    "summary_calls": 161,
+    "node_levels": {
+      "0": 627,
+      "1": 132,
+      "2": 27,
+      "3": 2
+    },
+    "total_seconds": 552.5249137878418,
+    "reused_tree": false
+  },
+  "preds": [
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 0,
+      "question": "Who does Monty save from drowning?",
+      "refs": [
+        "A sailor.",
+        "a sailor"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "the sailor who fell overboard",
+          "f1": 0.4,
+          "correct": false,
+          "context_tokens": 1498,
+          "input_tokens": 1573
+        },
+        "raptor": {
+          "prediction": "Peggy",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1497,
+          "input_tokens": 1572
+        },
+        "truncated": {
+          "prediction": "No one is saved from drowning.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1576
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 1,
+      "question": "What can't Monty tell other people?",
+      "refs": [
+        "The reason why he is living in excess.",
+        "why he is splurging"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "His feelings for Barbara",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1434,
+          "input_tokens": 1510
+        },
+        "raptor": {
+          "prediction": "What happened with the lawyers",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1461,
+          "input_tokens": 1538
+        },
+        "truncated": {
+          "prediction": "His grandfather's wealth",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1577
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 2,
+      "question": "How much must Monty spend during the first year?",
+      "refs": [
+        "One million dollars.",
+        "$1 million"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "$16,000 a day",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1489,
+          "input_tokens": 1567
+        },
+        "raptor": {
+          "prediction": "$16,000 a day",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1578
+        },
+        "truncated": {
+          "prediction": "Not specified in the text.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1579
+        }
+      },
+      "raptor_levels": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 3,
+      "question": "Whose money was it that Monty had to spend all of in a year?",
+      "refs": [
+        "His grandfather's money.",
+        "His grandfather's."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Monty's grandfather's money",
+          "f1": 0.6666666666666666,
+          "correct": true,
+          "context_tokens": 1495,
+          "input_tokens": 1579
+        },
+        "raptor": {
+          "prediction": "Monty's own money",
+          "f1": 0.3333333333333333,
+          "correct": false,
+          "context_tokens": 1454,
+          "input_tokens": 1539
+        },
+        "truncated": {
+          "prediction": "Brewster's money",
+          "f1": 0.4,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1585
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 4,
+      "question": "How much will Monty receive if he spends all one million dollars?",
+      "refs": [
+        "Seven million dollars.",
+        "7 million dollars"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Not specified in the text.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1448,
+          "input_tokens": 1529
+        },
+        "raptor": {
+          "prediction": "$1,000,000",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1484,
+          "input_tokens": 1565
+        },
+        "truncated": {
+          "prediction": "Unknown",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1582
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 5,
+      "question": "What does Monty bail out with his money?",
+      "refs": [
+        "A bank.",
+        "A bank."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "The bank crisis",
+          "f1": 0.6666666666666666,
+          "correct": true,
+          "context_tokens": 1448,
+          "input_tokens": 1526
+        },
+        "raptor": {
+          "prediction": "Peggy and her family",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1495,
+          "input_tokens": 1572
+        },
+        "truncated": {
+          "prediction": "Monty bails out with his money.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1578
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 6,
+      "question": "Who shows up at Monty's wedding to deliver the money?",
+      "refs": [
+        "The executor of his uncle's inheritance.",
+        "the executor of the will"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Colonel Drew",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1456,
+          "input_tokens": 1537
+        },
+        "raptor": {
+          "prediction": "Joe Bragdon and Elon Gardner",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1496,
+          "input_tokens": 1576
+        },
+        "truncated": {
+          "prediction": "No one delivers money at Monty's wedding.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1581
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        3,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 7,
+      "question": "How long did the cruise to Europe and Egypt last?",
+      "refs": [
+        "Several months.",
+        "several months"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "133 days",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1494,
+          "input_tokens": 1573
+        },
+        "raptor": {
+          "prediction": "133 days",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1498,
+          "input_tokens": 1576
+        },
+        "truncated": {
+          "prediction": "Not specified in the text.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1579
+        }
+      },
+      "raptor_levels": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 8,
+      "question": "Who falls in love with Monty despite his financial status?",
+      "refs": [
+        "Peggy Gray.",
+        "Peggy Gray."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Barbara Drew",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1489,
+          "input_tokens": 1568
+        },
+        "raptor": {
+          "prediction": "Peggy Gray",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1475,
+          "input_tokens": 1555
+        },
+        "truncated": {
+          "prediction": "Younger women",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1580
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        1,
+        3,
+        2,
+        1,
+        1,
+        1,
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 9,
+      "question": "Who does Brewster inherit the money from?",
+      "refs": [
+        "His grandfather",
+        "his grandfather"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Edwin Peter Brewster",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1496,
+          "input_tokens": 1573
+        },
+        "raptor": {
+          "prediction": "James T. Sedgwick",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1443,
+          "input_tokens": 1519
+        },
+        "truncated": {
+          "prediction": "Edwin Peter Brewster",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1577
+        }
+      },
+      "raptor_levels": [
+        1,
+        2,
+        1,
+        1,
+        3,
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 10,
+      "question": "What limit is Brewster required to spend every penny of the million within?",
+      "refs": [
+        "One Year",
+        "a year"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "No limit is specified.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1483,
+          "input_tokens": 1566
+        },
+        "raptor": {
+          "prediction": "September 23, must be absolutely penniless",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1496,
+          "input_tokens": 1578
+        },
+        "truncated": {
+          "prediction": "No limit is mentioned.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1583
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 11,
+      "question": "What is Brewster required to demonstrate?",
+      "refs": [
+        "Business Sense",
+        "Business sense."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Capable of managing affairs shrewdly and wisely",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1429,
+          "input_tokens": 1505
+        },
+        "raptor": {
+          "prediction": "Manage affairs wisely and shrewdly.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1447,
+          "input_tokens": 1523
+        },
+        "truncated": {
+          "prediction": "Respect and discretion",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1576
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 12,
+      "question": "Why Can Brewster not tell anyone ?",
+      "refs": [
+        "He is sworn to secrecy",
+        "He is sworn to secrecy"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "He has receipts to prove sincerity.",
+          "f1": 0.36363636363636365,
+          "correct": false,
+          "context_tokens": 1442,
+          "input_tokens": 1518
+        },
+        "raptor": {
+          "prediction": "He has receipts to prove sincerity later.",
+          "f1": 0.3333333333333333,
+          "correct": false,
+          "context_tokens": 1495,
+          "input_tokens": 1570
+        },
+        "truncated": {
+          "prediction": "He is too busy to be seen",
+          "f1": 0.5,
+          "correct": true,
+          "context_tokens": 1500,
+          "input_tokens": 1576
+        }
+      },
+      "raptor_levels": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 13,
+      "question": "Who tries to limit Brewster's losses?",
+      "refs": [
+        "His friends",
+        "his friends"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "The mutineers try to limit Brewster's losses.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1445,
+          "input_tokens": 1522
+        },
+        "raptor": {
+          "prediction": "Colonel Drew",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1476,
+          "input_tokens": 1552
+        },
+        "truncated": {
+          "prediction": "The grandfather limits Brewster's losses.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1577
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 14,
+      "question": "What does Brewster Charter in order to decrease his funds?",
+      "refs": [
+        "A Cruise",
+        "a cruise"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Brewster does not charter anything to decrease his funds. The text does not support this claim. Answer: none",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1485,
+          "input_tokens": 1565
+        },
+        "raptor": {
+          "prediction": "yacht cruise",
+          "f1": 0.6666666666666666,
+          "correct": true,
+          "context_tokens": 1499,
+          "input_tokens": 1578
+        },
+        "truncated": {
+          "prediction": "Brewster does not charter anything to decrease his funds.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1580
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 15,
+      "question": "Who does Brewster save from his cruise?",
+      "refs": [
+        "A drowning sailor",
+        "a sailor"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Brewster saves his wife.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1426,
+          "input_tokens": 1503
+        },
+        "raptor": {
+          "prediction": "Peggy",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1495,
+          "input_tokens": 1571
+        },
+        "truncated": {
+          "prediction": "Peggy",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1577
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 16,
+      "question": "What type of Character does Brewster demonstrate through his actions?",
+      "refs": [
+        "Strong moral character",
+        "Strong moral character."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Calm under pressure",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1417,
+          "input_tokens": 1497
+        },
+        "raptor": {
+          "prediction": "Loyal, resilient, redemptive",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1486,
+          "input_tokens": 1566
+        },
+        "truncated": {
+          "prediction": "Responsible, mature, dignified",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1580
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 17,
+      "question": "Who turns down Monty's proposal?",
+      "refs": [
+        "Drew",
+        "Barbara Drew"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Barbara Drew",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1481,
+          "input_tokens": 1556
+        },
+        "raptor": {
+          "prediction": "Barbara Drew",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1478,
+          "input_tokens": 1554
+        },
+        "truncated": {
+          "prediction": "No one turns down Monty's proposal.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1576
+        }
+      },
+      "raptor_levels": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 18,
+      "question": "Who does Monty confess to ?",
+      "refs": [
+        "Peggy",
+        "Peggy Gray"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Peggy",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1418,
+          "input_tokens": 1493
+        },
+        "raptor": {
+          "prediction": "Peggy",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1469,
+          "input_tokens": 1544
+        },
+        "truncated": {
+          "prediction": "Monty confesses to no one.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1575
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 19,
+      "question": "What does Montegomery Brewster receive from his grandfather? ",
+      "refs": [
+        "A one million dollar inheritance.",
+        "$1 million"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "One million dollars",
+          "f1": 0.5714285714285714,
+          "correct": true,
+          "context_tokens": 1416,
+          "input_tokens": 1498
+        },
+        "raptor": {
+          "prediction": "$1 million with strict conditions",
+          "f1": 0.5714285714285714,
+          "correct": true,
+          "context_tokens": 1495,
+          "input_tokens": 1576
+        },
+        "truncated": {
+          "prediction": "Millionaire's wealth and inheritance",
+          "f1": 0.25,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1582
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 20,
+      "question": "What is the condition that Brewster's uncle makes for giving him the inheritance? ",
+      "refs": [
+        "Brewster must spend the one million dollars from his grandfather's inheritance in a year.",
+        "could not keep any of grandfather's money"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Be absolutely penniless on September 23rd.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1495,
+          "input_tokens": 1580
+        },
+        "raptor": {
+          "prediction": "Be absolutely penniless by Sept. 23, own nothing but clothes, avoid Edwin Brewster.",
+          "f1": 0.08,
+          "correct": false,
+          "context_tokens": 1448,
+          "input_tokens": 1532
+        },
+        "truncated": {
+          "prediction": "No condition mentioned.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1585
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        2,
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 21,
+      "question": "What happens to Brewster's money when he attempts to lose it in stock speculation?",
+      "refs": [
+        "He increases his profits.",
+        "it increases"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "It dwindles to a few paltry thousands.",
+          "f1": 0.25,
+          "correct": false,
+          "context_tokens": 1422,
+          "input_tokens": 1507
+        },
+        "raptor": {
+          "prediction": "Plummets and crashes",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1493,
+          "input_tokens": 1577
+        },
+        "truncated": {
+          "prediction": "It disappears mysteriously.",
+          "f1": 0.4,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1585
+        }
+      },
+      "raptor_levels": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 22,
+      "question": "Why does Brewster jump overboard on the cruise?",
+      "refs": [
+        "To save a drown sailor.",
+        "To save a drowning sailor."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "To save the sailor from the water",
+          "f1": 0.6666666666666666,
+          "correct": true,
+          "context_tokens": 1487,
+          "input_tokens": 1565
+        },
+        "raptor": {
+          "prediction": "To save a sailor who fell overboard.",
+          "f1": 0.6,
+          "correct": true,
+          "context_tokens": 1500,
+          "input_tokens": 1578
+        },
+        "truncated": {
+          "prediction": "Brewster does not jump overboard on the cruise.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1579
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 23,
+      "question": "Why does Barbara Drew turn down Brewster's marriage proposal?",
+      "refs": [
+        "She believe's he is financially irresponsible.",
+        "as he seemed to be financially irresponsible and doomed to be poor"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "She never accepted his proposal.",
+          "f1": 0.18181818181818182,
+          "correct": false,
+          "context_tokens": 1437,
+          "input_tokens": 1517
+        },
+        "raptor": {
+          "prediction": "She never accepted his proposal.",
+          "f1": 0.18181818181818182,
+          "correct": false,
+          "context_tokens": 1499,
+          "input_tokens": 1578
+        },
+        "truncated": {
+          "prediction": "Barbara Drew does not turn down Brewster's marriage proposal.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1580
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 7,
+      "document_id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "question_index": 24,
+      "question": "Who is Peggy Gray in the story?",
+      "refs": [
+        "Another love interest of Montgomery Brewster",
+        "Monty's love interest and woman he marries."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Peggy Gray is Monty's love interest.",
+          "f1": 0.46153846153846156,
+          "correct": false,
+          "context_tokens": 1411,
+          "input_tokens": 1487
+        },
+        "raptor": {
+          "prediction": "Peggy Gray is Monty Brewster's love interest.",
+          "f1": 0.3076923076923077,
+          "correct": false,
+          "context_tokens": 1488,
+          "input_tokens": 1563
+        },
+        "truncated": {
+          "prediction": "Peggy Gray is a character mentioned in the story, but her specific role or identity is not detailed in the provided context.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1576
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

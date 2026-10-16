@@ -1,0 +1,1191 @@
+{
+  "meta": {
+    "story": 0,
+    "id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+    "title": "Beyond the Black River",
+    "words": 21886,
+    "tokens": 30616,
+    "build_seconds": 174.7832806110382,
+    "summary_calls": 57,
+    "node_levels": {
+      "0": 219,
+      "1": 46,
+      "2": 10,
+      "3": 1
+    },
+    "total_seconds": 62.624794244766235,
+    "reused_tree": true
+  },
+  "preds": [
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 0,
+      "question": "How old is Conan?",
+      "refs": [
+        "He is around forty.",
+        "Forty."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Not specified in the text.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1486,
+          "input_tokens": 1559
+        },
+        "raptor": {
+          "prediction": "Not specified in the text.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1481,
+          "input_tokens": 1553
+        },
+        "truncated": {
+          "prediction": "Not specified in the text.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1573
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 1,
+      "question": "Why does Conan head off to Bossonian Marches?",
+      "refs": [
+        "All of his friends are fathers now and he is bored visiting his homelands.",
+        "Because he is bored"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "To save the people west of the marches.",
+          "f1": 0.1,
+          "correct": false,
+          "context_tokens": 1489,
+          "input_tokens": 1568
+        },
+        "raptor": {
+          "prediction": "To warn the fort of Pict threats",
+          "f1": 0.1,
+          "correct": false,
+          "context_tokens": 1456,
+          "input_tokens": 1534
+        },
+        "truncated": {
+          "prediction": "Not specified in the text.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1579
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 2,
+      "question": "What does Balthus witness Conan doing in the Forrest?",
+      "refs": [
+        "Conan was slaying a Forrest devil.",
+        "Conan is slaying a forest devil"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Balthus witnesses Conan fighting a swamp devil.",
+          "f1": 0.36363636363636365,
+          "correct": false,
+          "context_tokens": 1403,
+          "input_tokens": 1483
+        },
+        "raptor": {
+          "prediction": "Balthus witnesses Conan fighting a forest devil.",
+          "f1": 0.5454545454545454,
+          "correct": true,
+          "context_tokens": 1490,
+          "input_tokens": 1569
+        },
+        "truncated": {
+          "prediction": "Conan does not do anything in the forest.",
+          "f1": 0.3333333333333333,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1580
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 3,
+      "question": "Who is Valannus desperate for Conan to slay?",
+      "refs": [
+        "A Pictish wizard named Zogar Sag.",
+        "Zogar Sag "
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Valannus is desperate for Conan to slay Zogar Sag.",
+          "f1": 0.36363636363636365,
+          "correct": false,
+          "context_tokens": 1394,
+          "input_tokens": 1474
+        },
+        "raptor": {
+          "prediction": "Zogar Sag",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1489,
+          "input_tokens": 1568
+        },
+        "truncated": {
+          "prediction": "The forest-devils (Picts)",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1580
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 4,
+      "question": "Who gets captured by the Picts and tied up?",
+      "refs": [
+        "Balthus",
+        "A scout and Balthus."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Balthus gets captured by the Picts and tied up.",
+          "f1": 0.36363636363636365,
+          "correct": false,
+          "context_tokens": 1478,
+          "input_tokens": 1557
+        },
+        "raptor": {
+          "prediction": "Balthus gets captured by the Picts and tied up.",
+          "f1": 0.36363636363636365,
+          "correct": false,
+          "context_tokens": 1471,
+          "input_tokens": 1549
+        },
+        "truncated": {
+          "prediction": "The wayfarer gets captured.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1579
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 5,
+      "question": "Who warns settlers of the Pictish attacks?",
+      "refs": [
+        "Both Balthus and Conan warn people.",
+        "Balthus"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Conan warns settlers of the Pictish attacks.",
+          "f1": 0.16666666666666666,
+          "correct": false,
+          "context_tokens": 1459,
+          "input_tokens": 1536
+        },
+        "raptor": {
+          "prediction": "Valannus and Balthus",
+          "f1": 0.5,
+          "correct": true,
+          "context_tokens": 1453,
+          "input_tokens": 1530
+        },
+        "truncated": {
+          "prediction": "Settlers along the road",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1578
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 6,
+      "question": "Who is  Slasher?",
+      "refs": [
+        "Slasher is a feral dog that joins Balthus and Conan.",
+        "a feral dog"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Slasher is a dog with no fear.",
+          "f1": 0.4,
+          "correct": false,
+          "context_tokens": 1449,
+          "input_tokens": 1522
+        },
+        "raptor": {
+          "prediction": "Balthus's dog",
+          "f1": 0.5,
+          "correct": true,
+          "context_tokens": 1498,
+          "input_tokens": 1571
+        },
+        "truncated": {
+          "prediction": "The forest man with the red sword",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1574
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 7,
+      "question": "Why is Conan marked for death by the gods of darkness? ",
+      "refs": [
+        "He misused the symbol of Jhebbal Sag.",
+        "He missued the symbol of Jhebbal Sag"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Made the sign only for him",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1451,
+          "input_tokens": 1532
+        },
+        "raptor": {
+          "prediction": "He marked the blood symbol on the tiger's hide.",
+          "f1": 0.3076923076923077,
+          "correct": false,
+          "context_tokens": 1489,
+          "input_tokens": 1569
+        },
+        "truncated": {
+          "prediction": "Conan is not marked for death by the gods of darkness.",
+          "f1": 0.125,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1581
+        }
+      },
+      "raptor_levels": [
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        3,
+        2,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 8,
+      "question": "What happens to Balthus and Slasher?",
+      "refs": [
+        "They sacrifice themselves in order to save the settlers during a Pictish attack.",
+        "they die"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "They fight and survive the Pict attack.",
+          "f1": 0.25,
+          "correct": false,
+          "context_tokens": 1498,
+          "input_tokens": 1575
+        },
+        "raptor": {
+          "prediction": "They fight and survive the Pict attacks.",
+          "f1": 0.25,
+          "correct": false,
+          "context_tokens": 1497,
+          "input_tokens": 1575
+        },
+        "truncated": {
+          "prediction": "Balthus and Slasher are not mentioned.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1578
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 9,
+      "question": "What does Conan do upon hearing about Balthus and Slasher?",
+      "refs": [
+        "He vows to take ten heads of the Pictish for Balthus and seven heads for Slasher.",
+        "vows vengeance"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Shakes his head and does not reply",
+          "f1": 0.09090909090909091,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1582
+        },
+        "raptor": {
+          "prediction": "Fights and saves Balthus and Slasher",
+          "f1": 0.2857142857142857,
+          "correct": false,
+          "context_tokens": 1465,
+          "input_tokens": 1546
+        },
+        "truncated": {
+          "prediction": "Conan does not hear about Balthus and Slasher.",
+          "f1": 0.2608695652173913,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1582
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 10,
+      "question": "How old was Conan when he visited his homeland and find his old friends and fathers?",
+      "refs": [
+        "40",
+        "around 40 years old"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Not specified in the text.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1388,
+          "input_tokens": 1473
+        },
+        "raptor": {
+          "prediction": "Not specified in the text.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1464,
+          "input_tokens": 1548
+        },
+        "truncated": {
+          "prediction": "Conan's age is not mentioned in the story.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1585
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 11,
+      "question": "What is Balthus slaying when Conan meets him in the forest?",
+      "refs": [
+        "forest devil",
+        "a forest devil "
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Picts",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1392,
+          "input_tokens": 1475
+        },
+        "raptor": {
+          "prediction": "Picts and a dead merchant",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1440,
+          "input_tokens": 1523
+        },
+        "truncated": {
+          "prediction": "A Pict devils",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1583
+        }
+      },
+      "raptor_levels": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 12,
+      "question": "What does Conan set off in when going to slay Zogar Sag?",
+      "refs": [
+        "canoes",
+        "canoes"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "The forest devil",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1494,
+          "input_tokens": 1578
+        },
+        "raptor": {
+          "prediction": "Primal rage and ancient instincts",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1466,
+          "input_tokens": 1549
+        },
+        "truncated": {
+          "prediction": "Conan does not set off anything to slay Zogar Sag.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1584
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        0,
+        3,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 13,
+      "question": "What does Conan do when saving Balthus from Zogar Sag?",
+      "refs": [
+        "lights the village on fire",
+        "Burns the village."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Hurls ax at fleeing Pict",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1499,
+          "input_tokens": 1582
+        },
+        "raptor": {
+          "prediction": "Conan defeats the demonic creature.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1496,
+          "input_tokens": 1578
+        },
+        "truncated": {
+          "prediction": "Conan does not save Balthus from Zogar Sag.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1583
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 14,
+      "question": "What does Conan realize he can use to neutralize the Picts?",
+      "refs": [
+        "Symbol",
+        "a symbol"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Conan realizes he can use the ax to neutralize the Picts.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1389,
+          "input_tokens": 1471
+        },
+        "raptor": {
+          "prediction": "Conan's strength and sword",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1487,
+          "input_tokens": 1568
+        },
+        "truncated": {
+          "prediction": "His sword and tracking skills",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1582
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 15,
+      "question": "Who is Slasher?",
+      "refs": [
+        "feral dog",
+        "a dog"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Slasher is a dog with no fear.",
+          "f1": 0.2857142857142857,
+          "correct": false,
+          "context_tokens": 1449,
+          "input_tokens": 1521
+        },
+        "raptor": {
+          "prediction": "Balthus's dog",
+          "f1": 0.6666666666666666,
+          "correct": true,
+          "context_tokens": 1498,
+          "input_tokens": 1570
+        },
+        "truncated": {
+          "prediction": "The forest man with the bull's horns helmet",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1573
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 16,
+      "question": "What happens to Balthus and Slasher when defending the settlers from the Picts?",
+      "refs": [
+        "they die",
+        "The end up dying "
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Balthus kills one, Slasher rises and attacks.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1460,
+          "input_tokens": 1546
+        },
+        "raptor": {
+          "prediction": "Balthus and Slasher flee southward.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1485,
+          "input_tokens": 1571
+        },
+        "truncated": {
+          "prediction": "Balthus and Slasher are not mentioned.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1586
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 17,
+      "question": "Where does the end of the story take place?",
+      "refs": [
+        "tavern",
+        "In a tavern"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Shores of the western ocean",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1443,
+          "input_tokens": 1520
+        },
+        "raptor": {
+          "prediction": "Shores of the western ocean",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1491,
+          "input_tokens": 1568
+        },
+        "truncated": {
+          "prediction": "Beyond the Black River",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1578
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 18,
+      "question": "How many Pict heads does Conan say he will take for Balthus's sacrafice?",
+      "refs": [
+        "ten",
+        "Ten"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Ten heads",
+          "f1": 0.6666666666666666,
+          "correct": true,
+          "context_tokens": 1409,
+          "input_tokens": 1497
+        },
+        "raptor": {
+          "prediction": "Ten Pict heads",
+          "f1": 0.5,
+          "correct": true,
+          "context_tokens": 1465,
+          "input_tokens": 1553
+        },
+        "truncated": {
+          "prediction": "Conan does not mention taking any Pict heads.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1588
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 19,
+      "question": "What line does Conan use to describe Slasher at the end of the story?",
+      "refs": [
+        "\"a better warrior than many a men\"",
+        "A better warrior than many a man"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "\"Silently as a phantom he slid in behind them.\"",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1496,
+          "input_tokens": 1580
+        },
+        "raptor": {
+          "prediction": "Silently as a phantom he slid in behind them.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1497,
+          "input_tokens": 1580
+        },
+        "truncated": {
+          "prediction": "None provided in the text.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1584
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        3,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 20,
+      "question": "On what river was Fort Tuscelan?",
+      "refs": [
+        "The Black River.",
+        "Black River"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Black River",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1415,
+          "input_tokens": 1492
+        },
+        "raptor": {
+          "prediction": "Black River",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1461,
+          "input_tokens": 1538
+        },
+        "truncated": {
+          "prediction": "Thunder River",
+          "f1": 0.5,
+          "correct": true,
+          "context_tokens": 1500,
+          "input_tokens": 1577
+        }
+      },
+      "raptor_levels": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 21,
+      "question": "What is Conan doing when Balthus meets him?",
+      "refs": [
+        "Killing a forest devil.",
+        "Walking through the forest "
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Conan is searching the woods for a threat.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1415,
+          "input_tokens": 1493
+        },
+        "raptor": {
+          "prediction": "Conan is fighting off Pict attacks.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1474,
+          "input_tokens": 1552
+        },
+        "truncated": {
+          "prediction": "Tramping along the forest trail",
+          "f1": 0.2857142857142857,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1579
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 22,
+      "question": "What is the name of the Pictish wizard?",
+      "refs": [
+        "Zohar Sag.",
+        "Zogar Sag"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Zogar Sag",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1499,
+          "input_tokens": 1578
+        },
+        "raptor": {
+          "prediction": "Zogar Sag",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1493,
+          "input_tokens": 1572
+        },
+        "truncated": {
+          "prediction": "There is no Pictish wizard in the story.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1579
+        }
+      },
+      "raptor_levels": [
+        1,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 23,
+      "question": "What does Conan do to the Pictish village?",
+      "refs": [
+        "He sets it on fire.",
+        "He sets it on fire."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Burns the fort and pushes back frontier",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1497,
+          "input_tokens": 1576
+        },
+        "raptor": {
+          "prediction": "Does not attack or destroy the village.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1488,
+          "input_tokens": 1567
+        },
+        "truncated": {
+          "prediction": "Conan does not act against the Pictish village.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1579
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 24,
+      "question": "Who is Slasher?",
+      "refs": [
+        "A feral dog.",
+        "a feral dog who once belonged to a murdered settler"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Slasher is a dog with no fear.",
+          "f1": 0.25,
+          "correct": false,
+          "context_tokens": 1449,
+          "input_tokens": 1521
+        },
+        "raptor": {
+          "prediction": "Balthus's dog",
+          "f1": 0.5,
+          "correct": true,
+          "context_tokens": 1498,
+          "input_tokens": 1570
+        },
+        "truncated": {
+          "prediction": "The forest man with the bull's horns helmet",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1573
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

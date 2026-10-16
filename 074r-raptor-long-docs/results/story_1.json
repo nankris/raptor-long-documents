@@ -1,0 +1,1213 @@
+{
+  "meta": {
+    "story": 1,
+    "id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+    "title": "Mary: A Fiction",
+    "words": 23306,
+    "tokens": 31445,
+    "build_seconds": 162.9510805606842,
+    "summary_calls": 59,
+    "node_levels": {
+      "0": 234,
+      "1": 48,
+      "2": 10,
+      "3": 1
+    },
+    "total_seconds": 272.5914378166199
+  },
+  "preds": [
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 0,
+      "question": "When Mary was younger, how did her mother fill her free time?",
+      "refs": [
+        "Reading novels",
+        "she was obsessed with novels."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Her mother filled her free time by talking of enquiring for a governess.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1497,
+          "input_tokens": 1545
+        },
+        "raptor": {
+          "prediction": "Her mother filled her free time with music, drawing, and reading.",
+          "f1": 0.15384615384615385,
+          "correct": false,
+          "context_tokens": 1488,
+          "input_tokens": 1535
+        },
+        "truncated": {
+          "prediction": "The text does not mention Mary's mother filling her free time. It describes Eliza, Mary's mother, as having a kind of indolence and being focused on superficial things, but it does not specify how she spent her free time. Therefore, based on the provided context, there is no information about how Mary",
+          "f1": 0.037037037037037035,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1547
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 1,
+      "question": "Why did Mary pay off the debt for Ann's family?",
+      "refs": [
+        "Mary was in love with Ann.",
+        "Because she had control of the money to do so and her family was going to lose their home."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Mary paid off the debt for Ann's family because she deeply cared for Ann and her family, and she wanted to help them in their time of need, especially as Ann's mother's resources were failing and the family faced financial hardship.",
+          "f1": 0.2807017543859649,
+          "correct": false,
+          "context_tokens": 1492,
+          "input_tokens": 1538
+        },
+        "raptor": {
+          "prediction": "Mary did not pay off the debt for Ann's family. The context does not support this claim.",
+          "f1": 0.09523809523809523,
+          "correct": false,
+          "context_tokens": 1487,
+          "input_tokens": 1532
+        },
+        "truncated": {
+          "prediction": "The context does not mention Mary paying off a debt for Ann's family. Therefore, there is no answer based on the provided text.",
+          "f1": 0.07692307692307693,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1545
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 2,
+      "question": "When Mary's brother died, who became the heir to her family's fortune?",
+      "refs": [
+        "Mary",
+        "Mary"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Mary became the heir to her family's fortune.",
+          "f1": 0.25,
+          "correct": false,
+          "context_tokens": 1398,
+          "input_tokens": 1447
+        },
+        "raptor": {
+          "prediction": "Mary became the heir to her family's fortune.",
+          "f1": 0.25,
+          "correct": false,
+          "context_tokens": 1467,
+          "input_tokens": 1517
+        },
+        "truncated": {
+          "prediction": "The text does not mention Mary having a brother or any event regarding her brother's death. Therefore, based on the provided context, the question cannot be answered.",
+          "f1": 0.08333333333333333,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1549
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        2,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 3,
+      "question": "Prior to her brother's death, how did Mary spend most of her time outside of the home? ",
+      "refs": [
+        "She worked with charities.",
+        "With her charity"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Mary spent most of her time outside of the home visiting the sick, supporting the old, and educating the young.",
+          "f1": 0.10526315789473684,
+          "correct": false,
+          "context_tokens": 1481,
+          "input_tokens": 1535
+        },
+        "raptor": {
+          "prediction": "Mary spent most of her time outside of the home observing nature, especially the sea, clouds, and birds, in the mountain castle near her father's home.",
+          "f1": 0.07692307692307693,
+          "correct": false,
+          "context_tokens": 1479,
+          "input_tokens": 1533
+        },
+        "truncated": {
+          "prediction": "The text does not mention Mary having a brother or her activities outside the home prior to any brother's death. Therefore, based on the provided context, there is no information to answer the question.",
+          "f1": 0.0625,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1554
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 4,
+      "question": "After Ann passes away, with whom did Mary fall in love?",
+      "refs": [
+        "Henry",
+        "She fell in love with Henry."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Henry",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1404,
+          "input_tokens": 1450
+        },
+        "raptor": {
+          "prediction": "Henry",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1448,
+          "input_tokens": 1494
+        },
+        "truncated": {
+          "prediction": "There is no mention of Ann passing away or Mary falling in love with anyone after such an event in the provided text. The story does not contain this information.",
+          "f1": 0.18181818181818182,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1546
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        3,
+        1,
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 5,
+      "question": "What accomplishment was Mary taught in order to attract suitors?",
+      "refs": [
+        "Dancing",
+        "Dancing"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Mary was taught to dance in order to attract suitors.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1481,
+          "input_tokens": 1526
+        },
+        "raptor": {
+          "prediction": "Dancing.",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1489,
+          "input_tokens": 1534
+        },
+        "truncated": {
+          "prediction": "Mary was taught superficial accomplishments in order to attract suitors.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1545
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 6,
+      "question": "According to Mary, what type of marriage was Eliza living?",
+      "refs": [
+        "Conventional and loveless.",
+        "Unrequited"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Eliza was not living in a marriage; she was living in a state of negative good-natured indolence, and the text does not describe her as being in a marriage. Therefore, based on the context, Eliza was not living in a marriage.",
+          "f1": 0.05263157894736842,
+          "correct": false,
+          "context_tokens": 1417,
+          "input_tokens": 1463
+        },
+        "raptor": {
+          "prediction": "The text does not specify what type of marriage Eliza was living. There is no information provided about Eliza's marital status or the nature of her marriage.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1457,
+          "input_tokens": 1504
+        },
+        "truncated": {
+          "prediction": "According to the text, Eliza was living a Platonic marriage.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1546
+        }
+      },
+      "raptor_levels": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 7,
+      "question": "Why did Mary marry Charles?",
+      "refs": [
+        "It was requested on her mother's deathbed.",
+        "Because her mother requested it on her deathbed."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "The story does not mention Mary marrying Charles. There is no information provided about a marriage between Mary and Charles.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1474,
+          "input_tokens": 1513
+        },
+        "raptor": {
+          "prediction": "Mary did not marry Charles.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1458,
+          "input_tokens": 1498
+        },
+        "truncated": {
+          "prediction": "Mary married Charles because her father recommended him, and she readily submitted to his will, promising to love, honour, and obey him as in duty bound.",
+          "f1": 0.11764705882352941,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1539
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        0,
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 8,
+      "question": "What makes you think that Mary will have a short life?",
+      "refs": [
+        "Mary is not healthy and the story implies that she will die young.",
+        "by the last few lines of the novel."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Her delicate state of health and the consumptive disorder that threatens her life.",
+          "f1": 0.16666666666666666,
+          "correct": false,
+          "context_tokens": 1423,
+          "input_tokens": 1468
+        },
+        "raptor": {
+          "prediction": "Her delicate state of health did not promise long life.",
+          "f1": 0.125,
+          "correct": false,
+          "context_tokens": 1498,
+          "input_tokens": 1543
+        },
+        "truncated": {
+          "prediction": "Her frail health, described as \"sickly, die-away languor,\" and her \"relaxed nerves\" suggest she is physically weak and likely to have a short life.",
+          "f1": 0.17142857142857143,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1545
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 9,
+      "question": "Which of her children does Eliza favor over the other?",
+      "refs": [
+        "Eliza favors her son over her daughter.",
+        "Her son."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Eliza favors her son over her daughter.",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1428,
+          "input_tokens": 1473
+        },
+        "raptor": {
+          "prediction": "Eliza favors her son over her daughter.",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1499,
+          "input_tokens": 1544
+        },
+        "truncated": {
+          "prediction": "Eliza favors Mary over the other child.",
+          "f1": 0.46153846153846156,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1545
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 10,
+      "question": "How is Mary initially educated?",
+      "refs": [
+        "She educates herself using books and the natural world.",
+        "Nature and books"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Mary is initially educated by an old house-keeper who tells her stories, reads to her, and teaches her to read.",
+          "f1": 0.09090909090909091,
+          "correct": false,
+          "context_tokens": 1482,
+          "input_tokens": 1522
+        },
+        "raptor": {
+          "prediction": "Mary is initially educated by an old house-keeper who tells her stories, reads to her, and eventually teaches her to read.",
+          "f1": 0.08695652173913043,
+          "correct": false,
+          "context_tokens": 1464,
+          "input_tokens": 1504
+        },
+        "truncated": {
+          "prediction": "Mary is initially educated with the expectation of a large fortune, focusing on superficial accomplishments without developing a true taste for them.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1539
+        }
+      },
+      "raptor_levels": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 11,
+      "question": "What does Eliza, on her death bed, request of her daughter Mary?",
+      "refs": [
+        "Eliza requests that Mary marry Charles.",
+        "That she marry Charles"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "There is no mention of Eliza or her deathbed request in the provided text. The story does not describe such a request.",
+          "f1": 0.08,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1550
+        },
+        "raptor": {
+          "prediction": "There is no mention of Eliza in the provided context. Therefore, there is no request made by Eliza to her daughter Mary.",
+          "f1": 0.14814814814814814,
+          "correct": false,
+          "context_tokens": 1488,
+          "input_tokens": 1537
+        },
+        "truncated": {
+          "prediction": "There is no mention of Eliza requesting anything from her daughter Mary in the provided text.",
+          "f1": 0.19047619047619047,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1549
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 12,
+      "question": "What does Charles do immediately after he and Mary are wed?",
+      "refs": [
+        "He leaves for the Continent. ",
+        "He leaves for the Continent."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "The text does not specify what Charles does immediately after he and Mary are wed.",
+          "f1": 0.1111111111111111,
+          "correct": false,
+          "context_tokens": 1497,
+          "input_tokens": 1543
+        },
+        "raptor": {
+          "prediction": "The context does not specify what Charles does immediately after he and Mary are wed.",
+          "f1": 0.1111111111111111,
+          "correct": false,
+          "context_tokens": 1441,
+          "input_tokens": 1486
+        },
+        "truncated": {
+          "prediction": "The text does not mention Charles or his actions after marrying Mary. Therefore, based on the provided context, there is no information to answer the question.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1545
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 13,
+      "question": "What does Mary do for Amy's family?",
+      "refs": [
+        "Mary pays off the family's debts.",
+        "Pay their debts"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Mary visits the sick, supports the old, and educates the young in Amy's family.",
+          "f1": 0.125,
+          "correct": false,
+          "context_tokens": 1493,
+          "input_tokens": 1536
+        },
+        "raptor": {
+          "prediction": "There is no character named Amy in the context provided. Therefore, Mary does not do anything for Amy's family.",
+          "f1": 0.08695652173913043,
+          "correct": false,
+          "context_tokens": 1481,
+          "input_tokens": 1523
+        },
+        "truncated": {
+          "prediction": "There is no character named Amy in the text, and Mary does not have any role or action related to Amy's family. The story does not mention Amy or any family connection involving her. Therefore, Mary does nothing for Amy's family.",
+          "f1": 0.045454545454545456,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1542
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        3,
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 14,
+      "question": "Where do Mary and Ann go after Ann becomes consumptive?",
+      "refs": [
+        "They go to Lisbon.",
+        "Lisbon."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Falmouth",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1496,
+          "input_tokens": 1542
+        },
+        "raptor": {
+          "prediction": "Falmouth.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1497,
+          "input_tokens": 1542
+        },
+        "truncated": {
+          "prediction": "The text does not mention Ann becoming consumptive or where Mary and Ann go after that event. Therefore, based on the provided context, there is no answer.",
+          "f1": 0.06896551724137931,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1545
+        }
+      },
+      "raptor_levels": [
+        3,
+        1,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 15,
+      "question": "Who do Mary and Ann meet is Lisbon?",
+      "refs": [
+        "They meet Henry.",
+        "The duo meet Henry on their travels to Lisbon."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "The gentleman who meets Mary and Ann in Lisbon is the one who asks Mary if he might hope for her friendship, and who is described as having a prior attachment to her. He is not named in the text, but he is the clerk of a neighboring counting-house. However, based on the context, the person Mary",
+          "f1": 0.10526315789473684,
+          "correct": false,
+          "context_tokens": 1488,
+          "input_tokens": 1531
+        },
+        "raptor": {
+          "prediction": "Mary and Ann meet the heiress in ----shire in Lisbon.",
+          "f1": 0.23529411764705882,
+          "correct": false,
+          "context_tokens": 1469,
+          "input_tokens": 1511
+        },
+        "truncated": {
+          "prediction": "There is no mention of Mary and Ann meeting anyone in Lisbon in the provided text.",
+          "f1": 0.08695652173913043,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1542
+        }
+      },
+      "raptor_levels": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 16,
+      "question": "What does Mary do when she hears that Henry's consumption has worsened?",
+      "refs": [
+        "She cares for him until he dies.l",
+        "She returns to his side and cares for him until he passes away."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Mary is overcome with sorrow and fear, and her mind is deeply affected by the news, leading her to rambled and feel a profound sense of despair and foreboding.",
+          "f1": 0.1,
+          "correct": false,
+          "context_tokens": 1399,
+          "input_tokens": 1447
+        },
+        "raptor": {
+          "prediction": "Mary is devastated and fears for his life, deeply affected by their shared wretchedness.",
+          "f1": 0.2222222222222222,
+          "correct": false,
+          "context_tokens": 1494,
+          "input_tokens": 1542
+        },
+        "truncated": {
+          "prediction": "There is no information in the provided text about Mary hearing that Henry's consumption has worsened.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1548
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 17,
+      "question": "Why does Ann not return Mary's feelings of affection?",
+      "refs": [
+        "Because Ann is already involved in an unrequited love.",
+        "Because she is in unrequited love with someone else"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Ann's feelings are fluctuating and based on false hopes, and she does not reciprocate Mary's affection due to her unstable emotional state and the fact that her affection is not genuine or consistent.",
+          "f1": 0.0975609756097561,
+          "correct": false,
+          "context_tokens": 1496,
+          "input_tokens": 1541
+        },
+        "raptor": {
+          "prediction": "Ann does not return Mary's feelings of affection because she is emotionally indifferent and her own feelings are fluctuating, leading her to show no reciprocation despite Mary's deep attachment.",
+          "f1": 0.16216216216216217,
+          "correct": false,
+          "context_tokens": 1488,
+          "input_tokens": 1533
+        },
+        "truncated": {
+          "prediction": "The text does not mention a character named Ann. Therefore, there is no basis to answer why Ann does not return Mary's feelings.",
+          "f1": 0.13793103448275862,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1544
+        }
+      },
+      "raptor_levels": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 18,
+      "question": "When Mary's brother dies, who is his heir?",
+      "refs": [
+        "Mary.",
+        "Mary."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Mary is his heir.",
+          "f1": 0.4,
+          "correct": false,
+          "context_tokens": 1402,
+          "input_tokens": 1446
+        },
+        "raptor": {
+          "prediction": "The context does not mention Mary having a brother or his heir. Therefore, based on the provided information, the question cannot be answered.",
+          "f1": 0.1,
+          "correct": false,
+          "context_tokens": 1454,
+          "input_tokens": 1498
+        },
+        "truncated": {
+          "prediction": "The text does not mention Mary's brother or his heir.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1544
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        3,
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 19,
+      "question": "What is Mary's mother's name?",
+      "refs": [
+        "Eliza",
+        "Eliza"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Mary's mother's name is not mentioned in the text.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1443,
+          "input_tokens": 1484
+        },
+        "raptor": {
+          "prediction": "Eliza",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1490,
+          "input_tokens": 1531
+        },
+        "truncated": {
+          "prediction": "Eliza",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1500,
+          "input_tokens": 1541
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 20,
+      "question": "What is Eliza obsessed with?",
+      "refs": [
+        "novels",
+        "She is obsessed with novels."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Eliza is obsessed with the shews of things and has a kind of indolence in her temper, which might be termed negative good-nature.",
+          "f1": 0.23076923076923078,
+          "correct": false,
+          "context_tokens": 1453,
+          "input_tokens": 1494
+        },
+        "raptor": {
+          "prediction": "Eliza is obsessed with nature, Platonic love, and her spiritual reflections on God\u2019s wisdom and goodness.",
+          "f1": 0.2857142857142857,
+          "correct": false,
+          "context_tokens": 1486,
+          "input_tokens": 1526
+        },
+        "truncated": {
+          "prediction": "Eliza is obsessed with superficial appearances, social etiquette, and the approval of others, particularly through the \"shews\" of things and the homage of her attendants. She lacks genuine emotional depth or personal duties, focusing instead on maintaining a fashionable image and conforming to societal expectations.",
+          "f1": 0.17391304347826086,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1540
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 21,
+      "question": "Who is Eliza's favorite?",
+      "refs": [
+        "Mary's brother",
+        "Her son"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Eliza's favorite is not explicitly stated in the text.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1415,
+          "input_tokens": 1455
+        },
+        "raptor": {
+          "prediction": "Eliza's favorite is Mary.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1498,
+          "input_tokens": 1538
+        },
+        "truncated": {
+          "prediction": "Eliza's favorite is not explicitly stated in the text. However, based on the context, it appears that Eliza (Mary's mother) is more fond of the fashionable and superficial aspects of life, and her husband is described as a \"vicious fool\" who is indifferent to her. There is no clear indication",
+          "f1": 0.041666666666666664,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1540
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 22,
+      "question": "How does Mary educate herself?",
+      "refs": [
+        "using books and the natural world",
+        "Books and nature"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Mary educates herself by reading books, engaging in conversation with learned individuals, and practicing thought and reflection.",
+          "f1": 0.2,
+          "correct": false,
+          "context_tokens": 1480,
+          "input_tokens": 1520
+        },
+        "raptor": {
+          "prediction": "Mary educates herself through reading, reflecting on books, studying authors, practicing writing, and engaging in intellectual conversations, especially with Henry.",
+          "f1": 0.17391304347826086,
+          "correct": false,
+          "context_tokens": 1498,
+          "input_tokens": 1537
+        },
+        "truncated": {
+          "prediction": "Mary educates herself by reading novels and philosophical works, particularly during her alone time or when with her French maid.",
+          "f1": 0.08695652173913043,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1539
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 23,
+      "question": "Why does Mary have to educate herself?",
+      "refs": [
+        "she is neglected by her mother",
+        "Her parents ignore her"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Because she was neglected and left to the operations of her own mind, she learned to think and educate herself.",
+          "f1": 0.24,
+          "correct": false,
+          "context_tokens": 1476,
+          "input_tokens": 1518
+        },
+        "raptor": {
+          "prediction": "Mary has to educate herself because she lacks formal instruction and is raised in a poor, isolated environment with limited opportunities for learning, and she seeks to develop her mind and understanding to overcome her grief, fulfill her duties, and grow spiritually and intellectually.",
+          "f1": 0.12244897959183673,
+          "correct": false,
+          "context_tokens": 1487,
+          "input_tokens": 1528
+        },
+        "truncated": {
+          "prediction": "Mary does not have to educate herself because she is already educated in superficial accomplishments. The text states she was educated with the expectation of a large fortune and spent her youth acquiring superficial skills without taste. Thus, she does not need to educate herself further\u2014she is already educated in the conventional, shallow way expected of women of",
+          "f1": 0.1,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1541
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 1,
+      "document_id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "question_index": 24,
+      "question": "What does Mary devote much of her time to?",
+      "refs": [
+        "charity",
+        "Charity"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Mary devotes much of her time to music, drawing, reading, visiting the sick, supporting the old, educating the young, and managing her estate.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1492,
+          "input_tokens": 1536
+        },
+        "raptor": {
+          "prediction": "Mary devotes much of her time to compassion, intellectual pursuits, and caring for others, especially her friend Ann and her mother.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1490,
+          "input_tokens": 1533
+        },
+        "truncated": {
+          "prediction": "Mary devotes much of her time to reading novels.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1543
+        }
+      },
+      "raptor_levels": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    }
+  ]
+}

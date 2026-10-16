@@ -1,0 +1,111 @@
+{
+  "source": "https://raw.githubusercontent.com/google-deepmind/narrativeqa/master/",
+  "round": 2,
+  "metadata_upper_words": 80000,
+  "eligible": 15,
+  "exclusions": [
+    {
+      "title": "Cratylus (dialogue)",
+      "reason": "collection or non-narrative work"
+    },
+    {
+      "title": "Der Judenstaat",
+      "reason": "collection or non-narrative work"
+    },
+    {
+      "title": "Goblin Market",
+      "reason": "collection or non-narrative work"
+    },
+    {
+      "id": "6d3020e7252fb731314bad3522cd416af124a3f0",
+      "url": "https://www.gutenberg.org/cache/epub/37651/pg37651.txt",
+      "error": "actual words 15234 <=20000"
+    }
+  ],
+  "selected": [
+    {
+      "id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "title": "Beyond the Black River",
+      "url": "https://www.gutenberg.org/cache/epub/42254/pg42254.txt",
+      "words": 21886,
+      "sha256": "bb90262494fe3731ef17ea647bd7688ab69a7b4be021953150058486a3811857"
+    },
+    {
+      "id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "title": "Mary: A Fiction",
+      "url": "https://www.gutenberg.org/cache/epub/16357/pg16357.txt",
+      "words": 23306,
+      "sha256": "d9214b9fba3392e44418bda368930cf19fe2289c3ea8e33449741fe5dc369826"
+    },
+    {
+      "id": "1dfe627a09345ed564805313858dc89daf4a2283",
+      "title": "Tom Swift and His Photo Telephone",
+      "url": "https://www.gutenberg.org/cache/epub/4532/pg4532.txt",
+      "words": 41805,
+      "sha256": "ed1198efef9c9e920bb1444502eacd74fbe0781af9cd937f3a7ca8f86a76083e"
+    },
+    {
+      "id": "808df2952d2a29807de69db8f77608025f667c97",
+      "title": "Otto of the Silver Hand",
+      "url": "https://www.gutenberg.org/cache/epub/2865/pg2865.txt",
+      "words": 27711,
+      "sha256": "b9843e1500220592db17af134f68cfa3911b2e5070e90405ca53888e29da9c0e"
+    },
+    {
+      "id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "title": "Justice (play)",
+      "url": "https://www.gutenberg.org/cache/epub/2911/pg2911.txt",
+      "words": 22740,
+      "sha256": "9f12098248b0882175df2971e54f9bdc569e3c56ac70d5cbc411e02e852b3206"
+    },
+    {
+      "id": "8a7a91b669cd6a37e96abcf846ef45a9c4cbb692",
+      "title": "Armageddon 2419 A.D.",
+      "url": "https://www.gutenberg.org/cache/epub/32530/pg32530.txt",
+      "words": 27500,
+      "sha256": "03fcfa36a220436eb6b6415c94b54e5b72b000bc6df240973ccdfc06bd80c1f7"
+    },
+    {
+      "id": "00fb61fa7bee266ad995e52190ebb73606b60b70",
+      "title": "Cynthia's Revels",
+      "url": "https://www.gutenberg.org/cache/epub/3771/pg3771.txt",
+      "words": 54299,
+      "sha256": "861570e933aeaae717678aa24031be3cfcb0a0865fbb0ab4cd7af2f11cf9eeb3"
+    },
+    {
+      "id": "26118a3592e63a620bed0d65d1b0943d502e55ef",
+      "title": "Brewster's Millions",
+      "url": "https://www.gutenberg.org/cache/epub/4709/pg4709.txt",
+      "words": 62667,
+      "sha256": "e03f11dc5613e6f317e93d0b36e09039e542af6c92a989d6024958138483a224"
+    },
+    {
+      "id": "845186ccb0a481e73525e98cbef89279c2f5721e",
+      "title": "Beyond the Rocks",
+      "url": "https://www.gutenberg.org/cache/epub/16692/pg16692.txt",
+      "words": 64586,
+      "sha256": "edd06a0b8bdc1499a34e9c65cf91f1ad7bcc17c75db08002104e7723f71453bc"
+    },
+    {
+      "id": "926198f64d64f2bf796feddd42a4aa1714ddf5b2",
+      "title": "Siddhartha (novel)",
+      "url": "https://www.gutenberg.org/cache/epub/2500/pg2500.txt",
+      "words": 39157,
+      "sha256": "62e6d3c923d5312f8d9d6dffd560d146f708866127dc75d595a7e475786fe279"
+    },
+    {
+      "id": "94dc6d01df88f97843813efb11e5d7e48562c869",
+      "title": "Almayer's Folly",
+      "url": "https://www.gutenberg.org/cache/epub/720/pg720.txt",
+      "words": 62738,
+      "sha256": "8017e5bffde623f324b02b55fa91a576476a1092e9b31e2e079b346315ed6e3a"
+    },
+    {
+      "id": "bfaf8bc1a86d524c9431e855c139da705730f165",
+      "title": "The Mysterious Affair at Styles",
+      "url": "https://www.gutenberg.org/cache/epub/863/pg863.txt",
+      "words": 56535,
+      "sha256": "ce873bcf9256ec95e6632255a06f196f2263de584a9bfea3ccfe657e285e9ea3"
+    }
+  ]
+}

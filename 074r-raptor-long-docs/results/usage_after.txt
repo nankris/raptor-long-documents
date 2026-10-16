@@ -1,0 +1,4 @@
+Usage rate: 0.00/hr
+Active assignments: 0
+Account balance omitted.
+Named stop: session not found; server reports no active sessions.

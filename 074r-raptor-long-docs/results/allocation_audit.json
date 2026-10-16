@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "timestamp": "2026-10-14T23:51:37.096453+00:00",
+      "event_type": "session_created",
+      "accelerator": "L4"
+    },
+    {
+      "timestamp": "2026-10-15T00:52:55.377372+00:00",
+      "event_type": "session_terminated",
+      "reason": "pruned"
+    },
+    {
+      "timestamp": "2026-10-15T00:55:03.233082+00:00",
+      "event_type": "session_created",
+      "accelerator": "L4"
+    },
+    {
+      "timestamp": "2026-10-15T03:08:56.324343+00:00",
+      "event_type": "session_terminated",
+      "reason": "pruned"
+    }
+  ],
+  "rate_cu_per_hour": 1.54,
+  "estimated_total_cu": 5.009864765888889,
+  "actual_billed_cu": "unavailable; usage is account-wide",
+  "final_status": "No active sessions; stop named session returned session not found"
+}

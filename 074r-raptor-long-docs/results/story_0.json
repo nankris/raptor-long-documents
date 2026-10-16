@@ -1,0 +1,1190 @@
+{
+  "meta": {
+    "story": 0,
+    "id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+    "title": "Beyond the Black River",
+    "words": 21886,
+    "tokens": 30616,
+    "build_seconds": 174.7832806110382,
+    "summary_calls": 57,
+    "node_levels": {
+      "0": 219,
+      "1": 46,
+      "2": 10,
+      "3": 1
+    },
+    "total_seconds": 282.5197982788086
+  },
+  "preds": [
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 0,
+      "question": "How old is Conan?",
+      "refs": [
+        "He is around forty.",
+        "Forty."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Not specified in the text.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1486,
+          "input_tokens": 1525
+        },
+        "raptor": {
+          "prediction": "The context does not specify Conan's age.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1481,
+          "input_tokens": 1519
+        },
+        "truncated": {
+          "prediction": "Unknown",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1539
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 1,
+      "question": "Why does Conan head off to Bossonian Marches?",
+      "refs": [
+        "All of his friends are fathers now and he is bored visiting his homelands.",
+        "Because he is bored"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Conan does not head off to the Bossonian Marches. The story does not mention this location or action.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1489,
+          "input_tokens": 1534
+        },
+        "raptor": {
+          "prediction": "Conan heads off to the Bossonian Marches to warn the fort of a Pict ambush and to prevent a coordinated attack on the frontier, as he believes the Picts are gathering to cross the river and storm the fort.",
+          "f1": 0.17777777777777778,
+          "correct": false,
+          "context_tokens": 1456,
+          "input_tokens": 1500
+        },
+        "truncated": {
+          "prediction": "The question cannot be answered based on the provided text.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1545
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 2,
+      "question": "What does Balthus witness Conan doing in the Forrest?",
+      "refs": [
+        "Conan was slaying a Forrest devil.",
+        "Conan is slaying a forest devil"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Balthus witnesses Conan diving into the leafy wall to investigate a cry from the woods, then later sees Conan fighting a creature that cries like a woman and laughs like a devil, before confronting a Pict and using his ax to attack.",
+          "f1": 0.1,
+          "correct": false,
+          "context_tokens": 1403,
+          "input_tokens": 1449
+        },
+        "raptor": {
+          "prediction": "Balthus witnesses Conan discovering a monstrous, three-toed blood footprint in the forest and cutting saplings and a vine to make a barrier, suspecting a hidden enemy.",
+          "f1": 0.15384615384615385,
+          "correct": false,
+          "context_tokens": 1490,
+          "input_tokens": 1535
+        },
+        "truncated": {
+          "prediction": "Balthus does not witness Conan doing anything in the forest. The story does not mention a character named Balthus.",
+          "f1": 0.19047619047619047,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1546
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 3,
+      "question": "Who is Valannus desperate for Conan to slay?",
+      "refs": [
+        "A Pictish wizard named Zogar Sag.",
+        "Zogar Sag "
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Valannus is desperate for Conan to slay Zogar Sag.",
+          "f1": 0.36363636363636365,
+          "correct": false,
+          "context_tokens": 1394,
+          "input_tokens": 1440
+        },
+        "raptor": {
+          "prediction": "Zogar Sag",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1489,
+          "input_tokens": 1534
+        },
+        "truncated": {
+          "prediction": "The text does not mention Valannus being desperate for Conan to slay anyone. Therefore, based on the provided context, there is no valid answer to the question.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1546
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 4,
+      "question": "Who gets captured by the Picts and tied up?",
+      "refs": [
+        "Balthus",
+        "A scout and Balthus."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Balthus gets captured by the Picts and tied up.",
+          "f1": 0.36363636363636365,
+          "correct": false,
+          "context_tokens": 1478,
+          "input_tokens": 1523
+        },
+        "raptor": {
+          "prediction": "Balthus gets captured by the Picts and tied up.",
+          "f1": 0.36363636363636365,
+          "correct": false,
+          "context_tokens": 1471,
+          "input_tokens": 1515
+        },
+        "truncated": {
+          "prediction": "Conan does not get captured by the Picts. The Pict kills a man named \"the dog\" and does not capture anyone. There is no mention of Conan being captured.",
+          "f1": 0.07142857142857142,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1545
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 5,
+      "question": "Who warns settlers of the Pictish attacks?",
+      "refs": [
+        "Both Balthus and Conan warn people.",
+        "Balthus"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Conan warns the settlers of the Pictish attacks.",
+          "f1": 0.16666666666666666,
+          "correct": false,
+          "context_tokens": 1459,
+          "input_tokens": 1502
+        },
+        "raptor": {
+          "prediction": "Valannus warns settlers of the Pictish attacks.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1453,
+          "input_tokens": 1496
+        },
+        "truncated": {
+          "prediction": "The settlers and those at Velitrium warn of the Pictish attacks.",
+          "f1": 0.26666666666666666,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1544
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 6,
+      "question": "Who is  Slasher?",
+      "refs": [
+        "Slasher is a feral dog that joins Balthus and Conan.",
+        "a feral dog"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Slasher is a large, fierce dog that serves as a companion and protector to Balthus and Conan, known for its strength, loyalty, and ability to hunt Picts.",
+          "f1": 0.4117647058823529,
+          "correct": false,
+          "context_tokens": 1449,
+          "input_tokens": 1488
+        },
+        "raptor": {
+          "prediction": "Slasher is a monstrous Pict and a loyal companion to Balthus, who aids in fighting the Picts and shows no fear in battle.",
+          "f1": 0.27586206896551724,
+          "correct": false,
+          "context_tokens": 1498,
+          "input_tokens": 1537
+        },
+        "truncated": {
+          "prediction": "The slasher is a tall, fierce forest man clad in dark mesh-mail, with a helmet adorned by bull's horns, and a broadsword smeared with blood. He is a skilled tracker and hunter who kills a Pict (forest devil) without being seen.",
+          "f1": 0.13636363636363635,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1540
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 7,
+      "question": "Why is Conan marked for death by the gods of darkness? ",
+      "refs": [
+        "He misused the symbol of Jhebbal Sag.",
+        "He missued the symbol of Jhebbal Sag"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Conan made the forbidden sign that only the gods of darkness recognize.",
+          "f1": 0.125,
+          "correct": false,
+          "context_tokens": 1451,
+          "input_tokens": 1498
+        },
+        "raptor": {
+          "prediction": "Conan is marked for death by the gods of darkness because he made a blood symbol known only to the dead and dark gods, which appears in fire and foretells doom for the Four Brothers of the Night.",
+          "f1": 0.15384615384615385,
+          "correct": false,
+          "context_tokens": 1489,
+          "input_tokens": 1535
+        },
+        "truncated": {
+          "prediction": "Conan is not marked for death by the gods of darkness in this story.",
+          "f1": 0.10526315789473684,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1547
+        }
+      },
+      "raptor_levels": [
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        3,
+        2,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 8,
+      "question": "What happens to Balthus and Slasher?",
+      "refs": [
+        "They sacrifice themselves in order to save the settlers during a Pictish attack.",
+        "they die"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Balthus and Slasher fight off Picts, survive the battle, and later encounter a mysterious figure in the forest, but the Picts retreat. Slasher is wounded and bloodied, and Balthus is left exhausted and traumatized by the violence.",
+          "f1": 0.046511627906976744,
+          "correct": false,
+          "context_tokens": 1498,
+          "input_tokens": 1541
+        },
+        "raptor": {
+          "prediction": "Balthus and Slasher fight and kill several Picts, escape a Pict ambush, and flee southward together after defeating the remaining attackers.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1497,
+          "input_tokens": 1541
+        },
+        "truncated": {
+          "prediction": "Balthus and Slasher are not mentioned in the story.",
+          "f1": 0.10526315789473684,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1544
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 9,
+      "question": "What does Conan do upon hearing about Balthus and Slasher?",
+      "refs": [
+        "He vows to take ten heads of the Pictish for Balthus and seven heads for Slasher.",
+        "vows vengeance"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Conan does not do anything upon hearing about Balthus and Slasher. The story does not mention Conan hearing about them.",
+          "f1": 0.17647058823529413,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1548
+        },
+        "raptor": {
+          "prediction": "Conan halts, lifts Balthus to scale the logs, and fights off multiple Picts, defeating them with his sword and strength.",
+          "f1": 0.17647058823529413,
+          "correct": false,
+          "context_tokens": 1465,
+          "input_tokens": 1512
+        },
+        "truncated": {
+          "prediction": "There is no mention of Balthus and Slasher in the provided text. Therefore, Conan does not do anything upon hearing about them.",
+          "f1": 0.2222222222222222,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1548
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 10,
+      "question": "How old was Conan when he visited his homeland and find his old friends and fathers?",
+      "refs": [
+        "40",
+        "around 40 years old"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "The text does not provide Conan's age when he visited his homeland or find his old friends and father.",
+          "f1": 0.09090909090909091,
+          "correct": false,
+          "context_tokens": 1388,
+          "input_tokens": 1439
+        },
+        "raptor": {
+          "prediction": "The text does not provide information about Conan's age when he visited his homeland or found his old friends and father.",
+          "f1": 0.08333333333333333,
+          "correct": false,
+          "context_tokens": 1464,
+          "input_tokens": 1514
+        },
+        "truncated": {
+          "prediction": "The story does not provide information about Conan's age when he visited his homeland or found his old friends and father.",
+          "f1": 0.08333333333333333,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1551
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 11,
+      "question": "What is Balthus slaying when Conan meets him in the forest?",
+      "refs": [
+        "forest devil",
+        "a forest devil "
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Balthus is not slaying anyone when Conan meets him in the forest. He is fleeing from Picts who are attacking them.",
+          "f1": 0.09090909090909091,
+          "correct": false,
+          "context_tokens": 1392,
+          "input_tokens": 1441
+        },
+        "raptor": {
+          "prediction": "Balthus is slaying Picts when Conan meets him in the forest.",
+          "f1": 0.16666666666666666,
+          "correct": false,
+          "context_tokens": 1440,
+          "input_tokens": 1489
+        },
+        "truncated": {
+          "prediction": "A Pict.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1549
+        }
+      },
+      "raptor_levels": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 12,
+      "question": "What does Conan set off in when going to slay Zogar Sag?",
+      "refs": [
+        "canoes",
+        "canoes"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Conan does not set off anything in the story when going to slay Zogar Sag. The question is based on a misunderstanding or misinterpretation of the text. There is no mention of Conan setting off a device, explosion, or any such action. He simply prepares to go to Gwawela to",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1494,
+          "input_tokens": 1544
+        },
+        "raptor": {
+          "prediction": "Conan sets off a violent, primal rage and ancient instincts when going to slay Zogar Sag.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1466,
+          "input_tokens": 1515
+        },
+        "truncated": {
+          "prediction": "Conan does not set off anything when going to slay Zogar Sag. The story \"Beyond the Black River\" does not mention Zogar Sag or any such event.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1550
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        0,
+        3,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 13,
+      "question": "What does Conan do when saving Balthus from Zogar Sag?",
+      "refs": [
+        "lights the village on fire",
+        "Burns the village."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Conan throws his ax at the fleeing Pict to save Balthus.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1499,
+          "input_tokens": 1548
+        },
+        "raptor": {
+          "prediction": "Conan defeats the demonic creature summoned by Zogar Sag with a sword strike and saves Balthus by dragging him to safety.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1496,
+          "input_tokens": 1544
+        },
+        "truncated": {
+          "prediction": "The story provided does not mention Conan saving Balthus from Zogar Sag. Therefore, there is no accurate answer based on the given context.",
+          "f1": 0.08,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1549
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 14,
+      "question": "What does Conan realize he can use to neutralize the Picts?",
+      "refs": [
+        "Symbol",
+        "a symbol"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Conan realizes he can use the ax to neutralize the Picts.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1389,
+          "input_tokens": 1437
+        },
+        "raptor": {
+          "prediction": "Conan realizes he can use his sword and ax to neutralize the Picts.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1487,
+          "input_tokens": 1534
+        },
+        "truncated": {
+          "prediction": "Conan realizes he can use his sword to neutralize the Picts.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1548
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 15,
+      "question": "Who is Slasher?",
+      "refs": [
+        "feral dog",
+        "a dog"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Slasher is a large, fierce dog that serves as a companion and protector to Balthus and Conan, known for its strength and fearlessness in battle.",
+          "f1": 0.08333333333333333,
+          "correct": false,
+          "context_tokens": 1449,
+          "input_tokens": 1487
+        },
+        "raptor": {
+          "prediction": "Slasher is a monstrous Pict and a loyal companion to Balthus, who aids in fighting the Picts and shows no fear in battle.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1498,
+          "input_tokens": 1536
+        },
+        "truncated": {
+          "prediction": "The slasher is a tall, fierce forest man clad in dark mesh-mail, with a helmet adorned by bull's horns, who tracks and kills Pict devils in the woods. He is not a soldier but a woodsman who earns officer's pay and rations.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1539
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 16,
+      "question": "What happens to Balthus and Slasher when defending the settlers from the Picts?",
+      "refs": [
+        "they die",
+        "The end up dying "
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Balthus and Slasher fight the Picts, and Balthus kills one of Slasher's companions. Slasher rises from the fallen warrior, and Balthus kills him with his ax. Both Balthus and Slasher are wounded in the battle.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1460,
+          "input_tokens": 1512
+        },
+        "raptor": {
+          "prediction": "Balthus and Slasher fight off Pict attacks, with Balthus killing a Pict and narrowly avoiding death, while Slasher the dog aids in the chase and helps them survive the ambush.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1485,
+          "input_tokens": 1537
+        },
+        "truncated": {
+          "prediction": "Balthus and Slasher are not mentioned in the story.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1552
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 17,
+      "question": "Where does the end of the story take place?",
+      "refs": [
+        "tavern",
+        "In a tavern"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "The end of the story takes place in the wilderness beyond the river, near the fort of Valannus, where the characters plan to warn the settlers and escape the advancing Picts.",
+          "f1": 0.08,
+          "correct": false,
+          "context_tokens": 1443,
+          "input_tokens": 1486
+        },
+        "raptor": {
+          "prediction": "The end of the story takes place at the shores of the western ocean, beyond the Black River and the unknown wilderness.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1491,
+          "input_tokens": 1534
+        },
+        "truncated": {
+          "prediction": "The end of the story takes place along the trail beyond Thunder River, near Black River.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1544
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 18,
+      "question": "How many Pict heads does Conan say he will take for Balthus's sacrafice?",
+      "refs": [
+        "ten",
+        "Ten"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Ten Pict heads.",
+          "f1": 0.5,
+          "correct": true,
+          "context_tokens": 1409,
+          "input_tokens": 1463
+        },
+        "raptor": {
+          "prediction": "Ten",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1465,
+          "input_tokens": 1519
+        },
+        "truncated": {
+          "prediction": "None",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1554
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 19,
+      "question": "What line does Conan use to describe Slasher at the end of the story?",
+      "refs": [
+        "\"a better warrior than many a men\"",
+        "A better warrior than many a man"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "\"Silently as a phantom he slid in behind them.\"",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1496,
+          "input_tokens": 1546
+        },
+        "raptor": {
+          "prediction": "\"Silently as a phantom he slid in behind them.\"",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1497,
+          "input_tokens": 1546
+        },
+        "truncated": {
+          "prediction": "None",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1550
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        3,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 20,
+      "question": "On what river was Fort Tuscelan?",
+      "refs": [
+        "The Black River.",
+        "Black River"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Black River",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1415,
+          "input_tokens": 1458
+        },
+        "raptor": {
+          "prediction": "Black River",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1461,
+          "input_tokens": 1504
+        },
+        "truncated": {
+          "prediction": "Black River",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1500,
+          "input_tokens": 1543
+        }
+      },
+      "raptor_levels": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 21,
+      "question": "What is Conan doing when Balthus meets him?",
+      "refs": [
+        "Killing a forest devil.",
+        "Walking through the forest "
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Conan is searching through the forest, moving cautiously and silently, looking for a hidden threat or a Pictish wizard named Zogar Sag.",
+          "f1": 0.18181818181818182,
+          "correct": false,
+          "context_tokens": 1415,
+          "input_tokens": 1459
+        },
+        "raptor": {
+          "prediction": "Conan is fighting off Pict attacks and defeating them with his sword and strength when Balthus meets him.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1474,
+          "input_tokens": 1518
+        },
+        "truncated": {
+          "prediction": "Conan is walking along a forest trail beyond Thunder River when Balthus meets him.",
+          "f1": 0.25,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1545
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 22,
+      "question": "What is the name of the Pictish wizard?",
+      "refs": [
+        "Zohar Sag.",
+        "Zogar Sag"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Zogar Sag",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1499,
+          "input_tokens": 1544
+        },
+        "raptor": {
+          "prediction": "Zogar Sag",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1493,
+          "input_tokens": 1538
+        },
+        "truncated": {
+          "prediction": "There is no Pictish wizard in the story. The man encountered is a Pict, not a wizard.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1545
+        }
+      },
+      "raptor_levels": [
+        1,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 23,
+      "question": "What does Conan do to the Pictish village?",
+      "refs": [
+        "He sets it on fire.",
+        "He sets it on fire."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Conan does not attack the Pictish village directly. Instead, he learns that the Picts burned their own dead in the fort and abandoned it, pushing the frontier back. The Picts are later seen fleeing, and Conan leads Balthus away from the village, avoiding confrontation.",
+          "f1": 0.09302325581395349,
+          "correct": false,
+          "context_tokens": 1497,
+          "input_tokens": 1542
+        },
+        "raptor": {
+          "prediction": "Conan does not attack or destroy the Pictish village. He evades Pict ambushes, survives attacks, and warns the fort of threats from Zogar Sag and the Picts, but there is no mention of him attacking or destroying the village.",
+          "f1": 0.05,
+          "correct": false,
+          "context_tokens": 1488,
+          "input_tokens": 1533
+        },
+        "truncated": {
+          "prediction": "Conan does not act against the Pictish village. The story does not describe any action by Conan against a Pictish village.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1545
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 0,
+      "document_id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "question_index": 24,
+      "question": "Who is Slasher?",
+      "refs": [
+        "A feral dog.",
+        "a feral dog who once belonged to a murdered settler"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Slasher is a large, fierce dog that serves as a companion and protector to Balthus and Conan, known for its strength and fearlessness in battle.",
+          "f1": 0.12903225806451613,
+          "correct": false,
+          "context_tokens": 1449,
+          "input_tokens": 1487
+        },
+        "raptor": {
+          "prediction": "Slasher is a monstrous Pict and a loyal companion to Balthus, who aids in fighting the Picts and shows no fear in battle.",
+          "f1": 0.14285714285714285,
+          "correct": false,
+          "context_tokens": 1498,
+          "input_tokens": 1536
+        },
+        "truncated": {
+          "prediction": "The slasher is a tall, fierce forest man clad in dark mesh-mail, with a helmet adorned by bull's horns, who tracks and kills Pict devils in the woods. He is not a soldier but a woodsman who earns officer's pay and rations.",
+          "f1": 0.045454545454545456,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1539
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

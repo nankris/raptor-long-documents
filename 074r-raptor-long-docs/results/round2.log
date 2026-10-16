@@ -1,0 +1,60 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792027672.629376   12384 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1792027672.701004   12384 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792027675.123024   12384 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1792027675.123578   12384 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+[0.0s] round 2 GPU NVIDIA L4
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.30s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.30s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.14it/s]
+[11.9s] story 0 Beyond the Black River 21886 words 30616 tokens
+[11.9s] reused tree 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[74.6s] finished 0 seconds 62.644367694854736 scores {'flat': 3, 'raptor': 9, 'truncated': 1}
+[74.7s] story 1 Mary: A Fiction 23306 words 31445 tokens
+[74.7s] reused tree 1
+[144.4s] finished 1 seconds 69.76729989051819 scores {'flat': 6, 'raptor': 6, 'truncated': 2}
+[144.6s] story 2 Tom Swift and His Photo Telephone 41805 words 58161 tokens
+[144.6s] reused tree 2
+[214.5s] finished 2 seconds 69.855623960495 scores {'flat': 7, 'raptor': 8, 'truncated': 3}
+[214.6s] story 3 Otto of the Silver Hand 27711 words 37192 tokens
+[214.6s] reused tree 3
+[291.6s] finished 3 seconds 77.00860166549683 scores {'flat': 4, 'raptor': 7, 'truncated': 1}
+[291.7s] story 4 Justice (play) 22740 words 38464 tokens
+[291.7s] reused tree 4
+[364.5s] finished 4 seconds 72.80357360839844 scores {'flat': 8, 'raptor': 9, 'truncated': 4}
+[364.6s] story 5 Armageddon 2419 A.D. 27500 words 36383 tokens
+[364.6s] reused tree 5
+[426.0s] finished 5 seconds 61.37531518936157 scores {'flat': 14, 'raptor': 12, 'truncated': 7}
+[426.3s] story 6 Cynthia's Revels 54299 words 97011 tokens
+[822.0s] level 1 summaries 121
+[905.1s] level 2 summaries 25
+[916.1s] level 3 summaries 2
+[1011.0s] finished 6 seconds 584.7164530754089 scores {'flat': 5, 'raptor': 5, 'truncated': 0}
+[1011.2s] story 7 Brewster's Millions 62667 words 86145 tokens
+[1373.1s] level 1 summaries 132
+[1448.3s] level 2 summaries 27
+[1458.6s] level 3 summaries 2
+[1563.8s] finished 7 seconds 552.5758817195892 scores {'flat': 6, 'raptor': 6, 'truncated': 1}
+[1564.1s] story 8 Beyond the Rocks 64586 words 88380 tokens
+[1957.6s] level 1 summaries 139
+[2042.6s] level 2 summaries 28
+[2053.7s] level 3 summaries 2
+[2163.3s] finished 8 seconds 599.2450394630432 scores {'flat': 6, 'raptor': 5, 'truncated': 4}
+[2163.5s] story 9 Siddhartha (novel) 39157 words 53649 tokens
+[2390.6s] level 1 summaries 80
+[2437.2s] level 2 summaries 16
+[2448.2s] level 3 summaries 2
+[2521.5s] finished 9 seconds 358.0606937408447 scores {'flat': 8, 'raptor': 7, 'truncated': 1}
+[2521.8s] story 10 Almayer's Folly 62738 words 88278 tokens
+[2889.2s] level 1 summaries 132
+[2967.4s] level 2 summaries 28
+[2978.2s] level 3 summaries 2
+[3080.1s] finished 10 seconds 558.2936360836029 scores {'flat': 1, 'raptor': 0, 'truncated': 0}
+[3080.4s] story 11 The Mysterious Affair at Styles 56535 words 82092 tokens
+[3419.4s] level 1 summaries 120
+[3497.5s] level 2 summaries 26
+[3508.7s] level 3 summaries 2
+[3580.0s] finished 11 seconds 499.67488265037537 scores {'flat': 13, 'raptor': 13, 'truncated': 7}
+[3580.1s] DONE {'raptor_only': 22, 'flat_only': 16, 'p': np.float64(0.417692190836533), 'verdict': 'STILL INCONCLUSIVE'}

@@ -1,0 +1,1181 @@
+{
+  "meta": {
+    "story": 4,
+    "id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+    "title": "Justice (play)",
+    "words": 22740,
+    "tokens": 38464,
+    "build_seconds": 194.83374667167664,
+    "summary_calls": 60,
+    "node_levels": {
+      "0": 228,
+      "1": 49,
+      "2": 10,
+      "3": 1
+    },
+    "total_seconds": 72.7863221168518,
+    "reused_tree": true
+  },
+  "preds": [
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 0,
+      "question": "Who is the senior clerk at James How & Sons?",
+      "refs": [
+        "Robert Cokeson",
+        "Robert Cokeson"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Cokeson",
+          "f1": 0.6666666666666666,
+          "correct": true,
+          "context_tokens": 1490,
+          "input_tokens": 1569
+        },
+        "raptor": {
+          "prediction": "COKESON",
+          "f1": 0.6666666666666666,
+          "correct": true,
+          "context_tokens": 1497,
+          "input_tokens": 1575
+        },
+        "truncated": {
+          "prediction": "Cokeson",
+          "f1": 0.6666666666666666,
+          "correct": true,
+          "context_tokens": 1500,
+          "input_tokens": 1579
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 1,
+      "question": "Who was under suspicion for the forged check?",
+      "refs": [
+        "William Falder",
+        "William Falder"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Davis was under suspicion.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1465,
+          "input_tokens": 1542
+        },
+        "raptor": {
+          "prediction": "Davis was under suspicion initially.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1461,
+          "input_tokens": 1537
+        },
+        "truncated": {
+          "prediction": "Moaney",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1577
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 2,
+      "question": "What is William Falder's occupation?",
+      "refs": [
+        "Junior office clerk",
+        "Junior office clerk"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Clerk",
+          "f1": 0.5,
+          "correct": true,
+          "context_tokens": 1475,
+          "input_tokens": 1550
+        },
+        "raptor": {
+          "prediction": "Clerk in a lawyer\u2019s office",
+          "f1": 0.5714285714285714,
+          "correct": true,
+          "context_tokens": 1452,
+          "input_tokens": 1527
+        },
+        "truncated": {
+          "prediction": "Junior clerk",
+          "f1": 0.8,
+          "correct": true,
+          "context_tokens": 1500,
+          "input_tokens": 1576
+        }
+      },
+      "raptor_levels": [
+        1,
+        3,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 3,
+      "question": "Who turns Falder over to the police?",
+      "refs": [
+        "Walter How",
+        "Robert Cokeson"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "James",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1478,
+          "input_tokens": 1554
+        },
+        "raptor": {
+          "prediction": "James turns Falder over to the police.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1492,
+          "input_tokens": 1568
+        },
+        "truncated": {
+          "prediction": "Wister, a detective",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1577
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 4,
+      "question": "Who acts as Falder's lawyer?",
+      "refs": [
+        "Frome",
+        "Lawyer Frome."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "FROME",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1497,
+          "input_tokens": 1573
+        },
+        "raptor": {
+          "prediction": "No lawyer is explicitly mentioned.",
+          "f1": 0.2857142857142857,
+          "correct": false,
+          "context_tokens": 1495,
+          "input_tokens": 1570
+        },
+        "truncated": {
+          "prediction": "James and Walter How",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1576
+        }
+      },
+      "raptor_levels": [
+        1,
+        3,
+        1,
+        2,
+        2,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 5,
+      "question": "Who does Falder believe could be murdered by her husband?",
+      "refs": [
+        "Ruth Honeywill",
+        "Ruth Honeywill"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Ruth",
+          "f1": 0.6666666666666666,
+          "correct": true,
+          "context_tokens": 1499,
+          "input_tokens": 1579
+        },
+        "raptor": {
+          "prediction": "Ruth Honeywill",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1447,
+          "input_tokens": 1527
+        },
+        "truncated": {
+          "prediction": "Ruth Honeywill",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1500,
+          "input_tokens": 1580
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 6,
+      "question": "How does the jury find in the case?",
+      "refs": [
+        "Guilty",
+        "Guilty"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Guilty, but insane",
+          "f1": 0.5,
+          "correct": true,
+          "context_tokens": 1495,
+          "input_tokens": 1572
+        },
+        "raptor": {
+          "prediction": "Guilty but insane",
+          "f1": 0.5,
+          "correct": true,
+          "context_tokens": 1479,
+          "input_tokens": 1556
+        },
+        "truncated": {
+          "prediction": "Not specified in the provided context.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1577
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 7,
+      "question": "How does Falder break his neck?",
+      "refs": [
+        "He throws himself down the stairs",
+        "Throwing himself dowm the stairs."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Falder does not break his neck.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1468,
+          "input_tokens": 1543
+        },
+        "raptor": {
+          "prediction": "Not specified in the context.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1473,
+          "input_tokens": 1548
+        },
+        "truncated": {
+          "prediction": "Not specified in the text.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1576
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 8,
+      "question": "What must Falder do in order to return to the firm?",
+      "refs": [
+        "He must give up Ruth",
+        "Give up Ruth"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Confess and restore the money",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1495,
+          "input_tokens": 1576
+        },
+        "raptor": {
+          "prediction": "Complete cataloguing Davis\u2019s work",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1493,
+          "input_tokens": 1573
+        },
+        "truncated": {
+          "prediction": "Return to the firm.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1581
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 9,
+      "question": "Who did Ruth Honeywill plan to escape with?",
+      "refs": [
+        "Falder",
+        "William Falder"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "William Falder",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1485,
+          "input_tokens": 1562
+        },
+        "raptor": {
+          "prediction": "William Falder",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1468,
+          "input_tokens": 1545
+        },
+        "truncated": {
+          "prediction": "Ruth Honeywill did not plan to escape with anyone.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1578
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 10,
+      "question": "What does Cokeson discover about the check?",
+      "refs": [
+        "It has been forged",
+        "That it was forged from nine to ninety pounds."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "The check was altered with a 'ty' and a nought.",
+          "f1": 0.125,
+          "correct": false,
+          "context_tokens": 1499,
+          "input_tokens": 1577
+        },
+        "raptor": {
+          "prediction": "Check was altered to \u00a390.",
+          "f1": 0.2857142857142857,
+          "correct": false,
+          "context_tokens": 1494,
+          "input_tokens": 1571
+        },
+        "truncated": {
+          "prediction": "There is no mention of a check in the provided context.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1578
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 11,
+      "question": "Who does suspicion fall on by process of elimination?",
+      "refs": [
+        "William Falder",
+        "William Falder"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Davis",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1474,
+          "input_tokens": 1552
+        },
+        "raptor": {
+          "prediction": "Falder",
+          "f1": 0.6666666666666666,
+          "correct": true,
+          "context_tokens": 1493,
+          "input_tokens": 1570
+        },
+        "truncated": {
+          "prediction": "Cokeson",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1578
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 12,
+      "question": "Who turns the suspect (from question 2) over to the police?",
+      "refs": [
+        "His father",
+        "Robert Cokeson"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "James",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1476,
+          "input_tokens": 1558
+        },
+        "raptor": {
+          "prediction": "James",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1492,
+          "input_tokens": 1574
+        },
+        "truncated": {
+          "prediction": "Wister, a detective",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1583
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 13,
+      "question": "Whose speech is considered a masterpeice?",
+      "refs": [
+        "Lawyer Frome",
+        "lawyer Frome"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Frome's speech",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1494,
+          "input_tokens": 1572
+        },
+        "raptor": {
+          "prediction": "Frome's speech",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1494,
+          "input_tokens": 1572
+        },
+        "truncated": {
+          "prediction": "Ruth Honeywill's speech",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1578
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 14,
+      "question": "What does Frome beg of the jury?",
+      "refs": [
+        "The man's innocence.",
+        "Compassion"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Give utmost weight to his plea",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1473,
+          "input_tokens": 1549
+        },
+        "raptor": {
+          "prediction": "Frome begs for mercy and a lenient verdict.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1495,
+          "input_tokens": 1571
+        },
+        "truncated": {
+          "prediction": "The play does not contain a scene where Frome begs the jury.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1577
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 15,
+      "question": "What does Falder find himself the victim of?",
+      "refs": [
+        "The System",
+        "The terrible \"system\""
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Falder finds himself the victim of suspicion.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1496,
+          "input_tokens": 1573
+        },
+        "raptor": {
+          "prediction": "Emotional trauma and betrayal",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1466,
+          "input_tokens": 1543
+        },
+        "truncated": {
+          "prediction": "No specific victimization is described for Falder.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1578
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        3,
+        1
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 16,
+      "question": "What setting does the third act take place in?",
+      "refs": [
+        "Falder's Prison Cell",
+        "Falder's jail cell"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "A prison",
+          "f1": 0.5,
+          "correct": true,
+          "context_tokens": 1453,
+          "input_tokens": 1530
+        },
+        "raptor": {
+          "prediction": "prison",
+          "f1": 0.5,
+          "correct": true,
+          "context_tokens": 1472,
+          "input_tokens": 1550
+        },
+        "truncated": {
+          "prediction": "A prison",
+          "f1": 0.5,
+          "correct": true,
+          "context_tokens": 1500,
+          "input_tokens": 1578
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 17,
+      "question": "What firm is willing to take Falder back?",
+      "refs": [
+        "James How & Son",
+        "James How & Son "
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "The governors",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1497,
+          "input_tokens": 1575
+        },
+        "raptor": {
+          "prediction": "The firm is not explicitly stated as willing to take Falder back. However, based on the context, Cokeson and Sweedle discuss helping Falder, and Cokeson says, \"I don't think we need consider that\u2014 it's rather far-fetched,\" indicating they do not support rehiring",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1491,
+          "input_tokens": 1568
+        },
+        "truncated": {
+          "prediction": "No firm is willing to take Falder back.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1578
+        }
+      },
+      "raptor_levels": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 18,
+      "question": "Why does Falder throw himself down the stairs?",
+      "refs": [
+        "Overcome by his fate",
+        "Because he is sent back to prison."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Falder does not throw himself down the stairs.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1476,
+          "input_tokens": 1553
+        },
+        "raptor": {
+          "prediction": "Falder does not throw himself down the stairs.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1496,
+          "input_tokens": 1573
+        },
+        "truncated": {
+          "prediction": "Falder throws himself down the stairs because he is overcome with guilt and shock upon discovering the truth about Ruth Honeywill's past and the deception involving the will.",
+          "f1": 0.1935483870967742,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1578
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 19,
+      "question": "What news does Falder learn about his love?",
+      "refs": [
+        "She has sold herself",
+        "she was forced to sell herself"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "He learns she is married.",
+          "f1": 0.2222222222222222,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1578
+        },
+        "raptor": {
+          "prediction": "Ruth loves him and wants divorce",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1577
+        },
+        "truncated": {
+          "prediction": "No news about love is given.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1578
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 20,
+      "question": "How much was the check that was issued by Robert Cokeson forged for?",
+      "refs": [
+        "Ninety pounds",
+        "90"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Not specified in the text.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1466,
+          "input_tokens": 1549
+        },
+        "raptor": {
+          "prediction": "\u00a390",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1494,
+          "input_tokens": 1577
+        },
+        "truncated": {
+          "prediction": "The context does not mention the amount of a forged check issued by Robert Cokeson.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1584
+        }
+      },
+      "raptor_levels": [
+        1,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 21,
+      "question": "Who did Robert Cokeson originally suspect of forging the check?",
+      "refs": [
+        "William Falder",
+        "William Falder"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Robert Cokeson originally suspected Davis.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1496,
+          "input_tokens": 1577
+        },
+        "raptor": {
+          "prediction": "Walter",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1490,
+          "input_tokens": 1570
+        },
+        "truncated": {
+          "prediction": "Robert Cokeson did not suspect anyone of forging the check.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1581
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 22,
+      "question": "Why was the check forged?",
+      "refs": [
+        "Falder needed the money to run away with the woman he loved.",
+        "to escape with Ruth"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "To get money to take her away",
+          "f1": 0.35294117647058826,
+          "correct": false,
+          "context_tokens": 1487,
+          "input_tokens": 1560
+        },
+        "raptor": {
+          "prediction": "To help Ruth escape with money.",
+          "f1": 0.8,
+          "correct": true,
+          "context_tokens": 1451,
+          "input_tokens": 1525
+        },
+        "truncated": {
+          "prediction": "Not specified in the provided context.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1574
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 23,
+      "question": "What did James How do with Falder after he found out about the forged check?",
+      "refs": [
+        "Turned him in to the police",
+        "Turns Falder over to the police"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Interrogated Falder about the cheque.",
+          "f1": 0.2222222222222222,
+          "correct": false,
+          "context_tokens": 1497,
+          "input_tokens": 1582
+        },
+        "raptor": {
+          "prediction": "James confronts Falder with the cheque.",
+          "f1": 0.2,
+          "correct": false,
+          "context_tokens": 1482,
+          "input_tokens": 1566
+        },
+        "truncated": {
+          "prediction": "No such event occurs in the play.",
+          "f1": 0.18181818181818182,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1585
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 4,
+      "document_id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "question_index": 24,
+      "question": "What was the name of the woman Falder was in love with?",
+      "refs": [
+        "Ruth Honeywill",
+        "Ruth Honeywell"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "RUTH",
+          "f1": 0.6666666666666666,
+          "correct": true,
+          "context_tokens": 1454,
+          "input_tokens": 1535
+        },
+        "raptor": {
+          "prediction": "Ruth Honeywill",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1476,
+          "input_tokens": 1557
+        },
+        "truncated": {
+          "prediction": "The context does not mention the name of the woman Falder was in love with.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1582
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    }
+  ]
+}

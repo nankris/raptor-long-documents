@@ -1,0 +1,1214 @@
+{
+  "meta": {
+    "story": 3,
+    "id": "808df2952d2a29807de69db8f77608025f667c97",
+    "title": "Otto of the Silver Hand",
+    "words": 27711,
+    "tokens": 37192,
+    "build_seconds": 190.53380870819092,
+    "summary_calls": 71,
+    "node_levels": {
+      "0": 278,
+      "1": 58,
+      "2": 12,
+      "3": 1
+    },
+    "total_seconds": 289.16772961616516
+  },
+  "preds": [
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 0,
+      "question": "Why did Baroness Matillda went into premature labor?",
+      "refs": [
+        "Because she saw her husband's battle wounds",
+        "Because of the sight of her husbands battle wounds"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "The context does not provide information about Baroness Matilda going into premature labor. Therefore, based on the given text, the answer is: **Unknown**.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1455,
+          "input_tokens": 1501
+        },
+        "raptor": {
+          "prediction": "The context provided does not mention Baroness Matilda or explain why she went into premature labor. Therefore, based on the given text, the answer is: **Unknown**.",
+          "f1": 0.06666666666666667,
+          "correct": false,
+          "context_tokens": 1442,
+          "input_tokens": 1488
+        },
+        "truncated": {
+          "prediction": "The story does not mention Baroness Matilda going into premature labor.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1546
+        }
+      },
+      "raptor_levels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 1,
+      "question": "Who kidnapped Otto?",
+      "refs": [
+        "Baron Henry",
+        "Baron Henry"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "One-eyed Hans kidnapped Otto.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1442,
+          "input_tokens": 1480
+        },
+        "raptor": {
+          "prediction": "Baron Henry kidnapped Otto.",
+          "f1": 0.6666666666666666,
+          "correct": true,
+          "context_tokens": 1498,
+          "input_tokens": 1535
+        },
+        "truncated": {
+          "prediction": "The text does not mention who kidnapped Otto.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1538
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 2,
+      "question": "Why did Baron Henry made an oath?",
+      "refs": [
+        "Because he wanted vengeance over his uncle's unfair death",
+        "Because he wanted to avenge his father's death"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Baron Henry made an oath to swear fealty to the Emperor and maintain the peace of the empire.",
+          "f1": 0.09090909090909091,
+          "correct": false,
+          "context_tokens": 1433,
+          "input_tokens": 1474
+        },
+        "raptor": {
+          "prediction": "Baron Henry made an oath to swear fealty to the Emperor and maintain the peace of the empire.",
+          "f1": 0.09090909090909091,
+          "correct": false,
+          "context_tokens": 1487,
+          "input_tokens": 1528
+        },
+        "truncated": {
+          "prediction": "The context does not mention Baron Henry or any oath made by him. Therefore, based on the provided text, the question cannot be answered.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1542
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 3,
+      "question": "What did Baron Henry do to Otto instead of killing him?",
+      "refs": [
+        "He cutted off his right hand.",
+        "Chopped off his right hand"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Baron Henry mutilated Otto instead of killing him.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1467,
+          "input_tokens": 1513
+        },
+        "raptor": {
+          "prediction": "Baron Henry mutilated Otto instead of killing him.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1497,
+          "input_tokens": 1542
+        },
+        "truncated": {
+          "prediction": "The context provided does not mention Baron Henry or any action he took against Otto. Therefore, based on the given text, there is no information to answer the question.",
+          "f1": 0.0625,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1546
+        }
+      },
+      "raptor_levels": [
+        1,
+        2,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 4,
+      "question": "Who conforted Otto when his hand was cut?",
+      "refs": [
+        "Pauline",
+        "Baron Henry's daughter, Pauline"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "One-eyed Hans conforted Otto when his hand was cut.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1453,
+          "input_tokens": 1496
+        },
+        "raptor": {
+          "prediction": "Hans",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1498,
+          "input_tokens": 1541
+        },
+        "truncated": {
+          "prediction": "Brother John",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1544
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 5,
+      "question": "What revelation about his father's life horrified Otto when he came to the castle?",
+      "refs": [
+        "That his father killed an already defeated enemy",
+        "That his father is a robber baron"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Otto was horrified to learn that his father, Baron Conrad, had killed a man with his own hand.",
+          "f1": 0.34782608695652173,
+          "correct": false,
+          "context_tokens": 1455,
+          "input_tokens": 1504
+        },
+        "raptor": {
+          "prediction": "Otto was horrified to learn that his father was wounded in a dangerous expedition and that his mother died from grief and fright.",
+          "f1": 0.21428571428571427,
+          "correct": false,
+          "context_tokens": 1478,
+          "input_tokens": 1527
+        },
+        "truncated": {
+          "prediction": "There is no revelation about his father's life that horrified Otto when he came to the castle in the provided text.",
+          "f1": 0.24,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1550
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 6,
+      "question": "Why did Baron Conrad take his son to the monastery?",
+      "refs": [
+        "Because his wife died while giving birth to the boy",
+        "To be raised by the monks after his mother died"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "To give his son a life of mercy and peace instead of rapine and war, and to ensure he was cared for by the Church.",
+          "f1": 0.1875,
+          "correct": false,
+          "context_tokens": 1476,
+          "input_tokens": 1520
+        },
+        "raptor": {
+          "prediction": "Baron Conrad took his son to the monastery because he believed the child's life could not be lived in the violent, cruel world of the castle, and he sought peace and safety for him under Abbot Otto's care.",
+          "f1": 0.13953488372093023,
+          "correct": false,
+          "context_tokens": 1497,
+          "input_tokens": 1541
+        },
+        "truncated": {
+          "prediction": "The text does not mention why Baron Conrad took his son to the monastery.",
+          "f1": 0.19047619047619047,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1545
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 7,
+      "question": "Why did Baron Conrad left the castle undefended? ",
+      "refs": [
+        "Because he was summoned by the Imperial Court",
+        "He takes the majority of his army as an escort to obey a summons to the Imperial Court"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Baron Conrad left the castle undefended because he believed he could handle his enemy and stay to face him, and he trusted his own strength and judgment.",
+          "f1": 0.15,
+          "correct": false,
+          "context_tokens": 1425,
+          "input_tokens": 1469
+        },
+        "raptor": {
+          "prediction": "Baron Conrad left the castle undefended because he surrendered to the Emperor and burned his castle, sending his son Otto to St. Michaelsburg for safety.",
+          "f1": 0.21621621621621623,
+          "correct": false,
+          "context_tokens": 1485,
+          "input_tokens": 1530
+        },
+        "truncated": {
+          "prediction": "The story does not mention why Baron Conrad left the castle undefended.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1545
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 8,
+      "question": "What age was Otto when his father went to claim him at the monastery?",
+      "refs": [
+        "He was eleven.",
+        "11"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Twenty-five or thirty years of age.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1452,
+          "input_tokens": 1501
+        },
+        "raptor": {
+          "prediction": "Twelve years old.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1461,
+          "input_tokens": 1510
+        },
+        "truncated": {
+          "prediction": "The story does not specify Otto's age when his father went to claim him at the monastery.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1549
+        }
+      },
+      "raptor_levels": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 9,
+      "question": "What was Otto's replacement hand made of?",
+      "refs": [
+        "Silver",
+        "Silver"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Silver.",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1440,
+          "input_tokens": 1482
+        },
+        "raptor": {
+          "prediction": "Silver",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1448,
+          "input_tokens": 1490
+        },
+        "truncated": {
+          "prediction": "The story does not mention Otto's replacement hand or what it was made of.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1543
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 10,
+      "question": "How did Otto's Mother die?",
+      "refs": [
+        "From premature labour caused by the sight her husband's battle wounds.",
+        "During early childbirth."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Otto\u2019s mother died from fright and grief after her son was foully wounded in the expedition.",
+          "f1": 0.16,
+          "correct": false,
+          "context_tokens": 1446,
+          "input_tokens": 1486
+        },
+        "raptor": {
+          "prediction": "Otto's mother died from grief and fright after her husband was wounded in battle.",
+          "f1": 0.25,
+          "correct": false,
+          "context_tokens": 1461,
+          "input_tokens": 1501
+        },
+        "truncated": {
+          "prediction": "Otto's mother died in the dragon's house.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1541
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 11,
+      "question": "Who attacks Castle Drachenhausen?",
+      "refs": [
+        "Baron Henry",
+        "Baron Henry."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Baron Henry of Roderburg of Trutz-Drachen attacks Castle Drachenhausen.",
+          "f1": 0.36363636363636365,
+          "correct": false,
+          "context_tokens": 1463,
+          "input_tokens": 1504
+        },
+        "raptor": {
+          "prediction": "Baron Henry of Trutz-Drachen attacks Castle Drachenhausen.",
+          "f1": 0.4444444444444444,
+          "correct": false,
+          "context_tokens": 1498,
+          "input_tokens": 1538
+        },
+        "truncated": {
+          "prediction": "The dragon attacks Castle Drachenhausen.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1541
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 12,
+      "question": "Why does Baron Henry attack Castle Drachenhausen?",
+      "refs": [
+        "Baron Conrad killed his uncle, Baron Frederick.",
+        "Because Baron Conrad killed his uncle Baron Frederick"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Baron Henry attacks Castle Drachenhausen to avenge the mutilation of his enemy, Baron Conrad's son, and to exact revenge on the Roderburg family for past wrongs.",
+          "f1": 0.1935483870967742,
+          "correct": false,
+          "context_tokens": 1477,
+          "input_tokens": 1521
+        },
+        "raptor": {
+          "prediction": "To retrieve a prisoner and avenge the mutilation of his uncle.",
+          "f1": 0.25,
+          "correct": false,
+          "context_tokens": 1448,
+          "input_tokens": 1492
+        },
+        "truncated": {
+          "prediction": "Baron Henry does not attack Castle Drachenhausen.",
+          "f1": 0.14285714285714285,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1544
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 13,
+      "question": "What does Baron Henry do to Otto after taking him captive?",
+      "refs": [
+        "He cuts off his right hand.",
+        "He cut off Ottos' right hand. "
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Baron Henry mutilates Otto.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1480,
+          "input_tokens": 1526
+        },
+        "raptor": {
+          "prediction": "Baron Henry tortures Otto and takes him to a cell, where he is held against a bench while Baron Henry and another man enter, using a key to open the door.",
+          "f1": 0.06060606060606061,
+          "correct": false,
+          "context_tokens": 1493,
+          "input_tokens": 1538
+        },
+        "truncated": {
+          "prediction": "The context provided does not mention Baron Henry or any actions taken by him against Otto. Therefore, based on the given text, there is no information to answer the question.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1546
+        }
+      },
+      "raptor_levels": [
+        1,
+        2,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 14,
+      "question": "Why is Otto horrified when he discovers his father killed Baron Frederick?",
+      "refs": [
+        "Baron Frederick was surrendering.",
+        "Baron Federick was defeated and surrendering be fore he was killed."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Otto is horrified because he believes his father is violent and cruel, and he cannot imagine his kind, gentle father killing someone with his own hands.",
+          "f1": 0.10810810810810811,
+          "correct": false,
+          "context_tokens": 1461,
+          "input_tokens": 1508
+        },
+        "raptor": {
+          "prediction": "Otto is horrified because he believed his father, Baron Conrad, was a kind and peaceful man, and killing Baron Frederick with violence contradicts the teachings of mercy and peace he has learned.",
+          "f1": 0.1951219512195122,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1546
+        },
+        "truncated": {
+          "prediction": "Otto is horrified because he has always loved and respected Baron Frederick, and the act of killing him goes against his sense of justice and kindness.",
+          "f1": 0.16666666666666666,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1547
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 15,
+      "question": "Why didn't Baron Henry just kill Otto instead of cutting his hand off?",
+      "refs": [
+        "Otto was so young.",
+        "Because Otto is young"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Because he respected the young Baron's hatred of bloodshed and chose to spare his life.",
+          "f1": 0.2222222222222222,
+          "correct": false,
+          "context_tokens": 1448,
+          "input_tokens": 1497
+        },
+        "raptor": {
+          "prediction": "Because he was merciful and chose to spare Otto's life, believing that mercy would ultimately lead to greater consequences.",
+          "f1": 0.08695652173913043,
+          "correct": false,
+          "context_tokens": 1447,
+          "input_tokens": 1495
+        },
+        "truncated": {
+          "prediction": "The story does not mention Baron Henry or his actions toward Otto. Therefore, the question cannot be answered based on the provided context.",
+          "f1": 0.08333333333333333,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1549
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 16,
+      "question": "What is the name of Baron Henry's fortress?",
+      "refs": [
+        "Castle Trutzdrachen.",
+        "Castle Trutzdrachen "
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Drachenhausen",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1451,
+          "input_tokens": 1494
+        },
+        "raptor": {
+          "prediction": "Castle Drachenhausen",
+          "f1": 0.5,
+          "correct": true,
+          "context_tokens": 1472,
+          "input_tokens": 1515
+        },
+        "truncated": {
+          "prediction": "Castle Drachenhausen",
+          "f1": 0.5,
+          "correct": true,
+          "context_tokens": 1500,
+          "input_tokens": 1544
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 17,
+      "question": "After escaping from Baron Henry, where does Otto take refuge?",
+      "refs": [
+        "The monastery where he grew up.",
+        "The monastery"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Otto takes refuge in the monastery.",
+          "f1": 0.3333333333333333,
+          "correct": false,
+          "context_tokens": 1452,
+          "input_tokens": 1498
+        },
+        "raptor": {
+          "prediction": "St. Michaelsburg",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1471,
+          "input_tokens": 1516
+        },
+        "truncated": {
+          "prediction": "Otto takes refuge in the monastery at St. Michaelsburg.",
+          "f1": 0.2222222222222222,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1546
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        0,
+        1,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 18,
+      "question": "Where does Otto first meet his wife?",
+      "refs": [
+        "At Baron Henry's fortress, Castle Trutzdrachen.",
+        "At castle trutzdrachen where he was being held captive"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Otto first meets his wife at the tradesmen\u2019s booths in the town.",
+          "f1": 0.125,
+          "correct": false,
+          "context_tokens": 1449,
+          "input_tokens": 1491
+        },
+        "raptor": {
+          "prediction": "Otto does not meet his wife in the story. There is no mention of Otto meeting a wife. The character Pauline is a young girl who visits Otto, not his wife.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1499,
+          "input_tokens": 1540
+        },
+        "truncated": {
+          "prediction": "Otto does not meet his wife in the story.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1542
+        }
+      },
+      "raptor_levels": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 19,
+      "question": "Who takes responsibility of Otto's upbringing after his father dies?",
+      "refs": [
+        "The Emperor",
+        "Monks."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "The Abbot Otto takes responsibility for Otto's upbringing after his father dies.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1438,
+          "input_tokens": 1483
+        },
+        "raptor": {
+          "prediction": "Abbot Otto takes responsibility of Otto's upbringing after his father dies.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1470,
+          "input_tokens": 1515
+        },
+        "truncated": {
+          "prediction": "Brother John",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1546
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 20,
+      "question": "Who is the main protagonist in the story?",
+      "refs": [
+        "Otto",
+        "Otto"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Otto",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1466,
+          "input_tokens": 1509
+        },
+        "raptor": {
+          "prediction": "Abbot Otto",
+          "f1": 0.6666666666666666,
+          "correct": true,
+          "context_tokens": 1449,
+          "input_tokens": 1491
+        },
+        "truncated": {
+          "prediction": "Otto",
+          "f1": 1.0,
+          "correct": true,
+          "context_tokens": 1500,
+          "input_tokens": 1543
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 21,
+      "question": "What event sparks Otto being raised in a monastery?",
+      "refs": [
+        "The death of his mother",
+        "His mom died while giving birth to him."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Baron Conrad is mutilated by his enemy and swears fealty to the Emperor, leading to Otto being taken to the monastery.",
+          "f1": 0.14814814814814814,
+          "correct": false,
+          "context_tokens": 1454,
+          "input_tokens": 1497
+        },
+        "raptor": {
+          "prediction": "Otto's mother dies when he is nearly twelve, sparking his being raised in the monastery.",
+          "f1": 0.2222222222222222,
+          "correct": false,
+          "context_tokens": 1449,
+          "input_tokens": 1493
+        },
+        "truncated": {
+          "prediction": "Otto is saved from the dragon's house and taken to the monastery.",
+          "f1": 0.1111111111111111,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1544
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 22,
+      "question": "What is the setting of the story?",
+      "refs": [
+        "Medieval Germany",
+        "Germany"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "The setting of the story is Castle Trutz-Drachen.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1416,
+          "input_tokens": 1457
+        },
+        "raptor": {
+          "prediction": "The setting of the story is the Monastery of St. Michaelsburg (\"The White Cross on the Hill\") and the dark, wind-swept castle of Drachenhausen, including Melchior\u2019s Tower and the surrounding forest.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1467,
+          "input_tokens": 1509
+        },
+        "truncated": {
+          "prediction": "The setting of the story is Castle Drachenhausen and the surrounding valley, hills, forest, and towns during the dark middle ages.",
+          "f1": 0.0,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1542
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 23,
+      "question": "Who did Baron Conrad kill?",
+      "refs": [
+        "Baron Frederick",
+        "Baron Frederick"
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Baron Conrad killed a man with his own hand, though the specific identity of the man is not named in the text.",
+          "f1": 0.1,
+          "correct": false,
+          "context_tokens": 1432,
+          "input_tokens": 1471
+        },
+        "raptor": {
+          "prediction": "Baron Conrad killed enemy Frederick.",
+          "f1": 0.5714285714285714,
+          "correct": true,
+          "context_tokens": 1469,
+          "input_tokens": 1509
+        },
+        "truncated": {
+          "prediction": "Baron Conrad did not kill anyone in the story.",
+          "f1": 0.2,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1540
+        }
+      },
+      "raptor_levels": [
+        2,
+        1,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "story": 3,
+      "document_id": "808df2952d2a29807de69db8f77608025f667c97",
+      "question_index": 24,
+      "question": "What happens shortly after Otto returns to his father's castle?",
+      "refs": [
+        "The nephew of Baron Frederick storms the castle and kidnaps Otto",
+        "Learns of his fathers life as a robber."
+      ],
+      "arms": {
+        "flat": {
+          "prediction": "Otto is reunited with his father, Baron Conrad, who has been hiding in the shadows, and they embrace, though the Baron is shocked to see Otto's mutilation.",
+          "f1": 0.17647058823529413,
+          "correct": false,
+          "context_tokens": 1461,
+          "input_tokens": 1507
+        },
+        "raptor": {
+          "prediction": "Otto returns to his father's castle, where he is imprisoned in a cold, bare room with chains, and the castle is ruled by the Dragon Scorner.",
+          "f1": 0.1875,
+          "correct": false,
+          "context_tokens": 1471,
+          "input_tokens": 1516
+        },
+        "truncated": {
+          "prediction": "Otto returns to his father's castle and lives in the Dragon's House.",
+          "f1": 0.3,
+          "correct": false,
+          "context_tokens": 1500,
+          "input_tokens": 1546
+        }
+      },
+      "raptor_levels": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    }
+  ]
+}

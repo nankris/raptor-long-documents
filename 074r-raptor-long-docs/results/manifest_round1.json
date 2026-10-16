@@ -1,0 +1,102 @@
+{
+  "source": "https://raw.githubusercontent.com/google-deepmind/narrativeqa/master/",
+  "eligible": 15,
+  "exclusions": [
+    {
+      "id": "6d3020e7252fb731314bad3522cd416af124a3f0",
+      "url": "https://www.gutenberg.org/cache/epub/37651/pg37651.txt",
+      "error": "actual words 15234 <=20000"
+    },
+    {
+      "id": "c49589b75550f66772acbdb86b26b1fd38a3249e",
+      "url": "https://www.gutenberg.org/cache/epub/19435/pg19435.txt",
+      "error": "actual words 18301 <=20000"
+    }
+  ],
+  "selected": [
+    {
+      "id": "11c498b404bec5dee6cbf41e54a8b682851fb934",
+      "title": "Beyond the Black River",
+      "url": "https://www.gutenberg.org/cache/epub/42254/pg42254.txt",
+      "words": 21886,
+      "sha256": "bb90262494fe3731ef17ea647bd7688ab69a7b4be021953150058486a3811857"
+    },
+    {
+      "id": "12ec522e344ec19702bc8bc74d85b4e5adf2d229",
+      "title": "Mary: A Fiction",
+      "url": "https://www.gutenberg.org/cache/epub/16357/pg16357.txt",
+      "words": 23306,
+      "sha256": "d9214b9fba3392e44418bda368930cf19fe2289c3ea8e33449741fe5dc369826"
+    },
+    {
+      "id": "1dfe627a09345ed564805313858dc89daf4a2283",
+      "title": "Tom Swift and His Photo Telephone",
+      "url": "https://www.gutenberg.org/cache/epub/4532/pg4532.txt",
+      "words": 41805,
+      "sha256": "ed1198efef9c9e920bb1444502eacd74fbe0781af9cd937f3a7ca8f86a76083e"
+    },
+    {
+      "id": "808df2952d2a29807de69db8f77608025f667c97",
+      "title": "Otto of the Silver Hand",
+      "url": "https://www.gutenberg.org/cache/epub/2865/pg2865.txt",
+      "words": 27711,
+      "sha256": "b9843e1500220592db17af134f68cfa3911b2e5070e90405ca53888e29da9c0e"
+    },
+    {
+      "id": "87bf382f6852f12cd8342a47c813cd51bed992ad",
+      "title": "Justice (play)",
+      "url": "https://www.gutenberg.org/cache/epub/2911/pg2911.txt",
+      "words": 22740,
+      "sha256": "9f12098248b0882175df2971e54f9bdc569e3c56ac70d5cbc411e02e852b3206"
+    },
+    {
+      "id": "8a7a91b669cd6a37e96abcf846ef45a9c4cbb692",
+      "title": "Armageddon 2419 A.D.",
+      "url": "https://www.gutenberg.org/cache/epub/32530/pg32530.txt",
+      "words": 27500,
+      "sha256": "03fcfa36a220436eb6b6415c94b54e5b72b000bc6df240973ccdfc06bd80c1f7"
+    },
+    {
+      "id": "926198f64d64f2bf796feddd42a4aa1714ddf5b2",
+      "title": "Siddhartha (novel)",
+      "url": "https://www.gutenberg.org/cache/epub/2500/pg2500.txt",
+      "words": 39157,
+      "sha256": "62e6d3c923d5312f8d9d6dffd560d146f708866127dc75d595a7e475786fe279"
+    },
+    {
+      "id": "a6dfeb4977cc8ba862878693664d326d7c6049e7",
+      "title": "Goblin Market",
+      "url": "https://www.gutenberg.org/cache/epub/16950/pg16950.txt",
+      "words": 46203,
+      "sha256": "9b9e1df865ec553b9c111dc87bee3946d4f0dc7ce760e68980245629c67c21c2"
+    },
+    {
+      "id": "b3d5cd530ffd1b3e55e1ac07b7e21c7134387d94",
+      "title": "Der Judenstaat",
+      "url": "https://www.gutenberg.org/cache/epub/25282/pg25282.txt",
+      "words": 42811,
+      "sha256": "cf8206f6080df4f856ca1352fe03aa3a6e7b1fb64d4787ac061db7db71ac3263"
+    },
+    {
+      "id": "d802901218c1f792295cb1565a2a922b4ff9294a",
+      "title": "The Jew of Malta",
+      "url": "https://www.gutenberg.org/cache/epub/901/pg901.txt",
+      "words": 25829,
+      "sha256": "e821c4dd68270924263ff637d480400114501c74f4db36cd451949d52d36ffba"
+    },
+    {
+      "id": "ebfad83ccf1214df566432798c54deb17e91d958",
+      "title": "Liza of Lambeth",
+      "url": "https://www.gutenberg.org/cache/epub/16517/pg16517.txt",
+      "words": 36304,
+      "sha256": "61f0683fc304f077c765dec523e441c3f838ddfcad95d0bee440cf42b859d261"
+    },
+    {
+      "id": "ed524405685e79384ca61daa883a2c0da21cfc9c",
+      "title": "An Ideal Husband",
+      "url": "https://www.gutenberg.org/cache/epub/885/pg885.txt",
+      "words": 31078,
+      "sha256": "af0461d7cbe5cd2b3598263cd77039ab7001fb711624c0e8e6410d1c5d39c149"
+    }
+  ]
+}
