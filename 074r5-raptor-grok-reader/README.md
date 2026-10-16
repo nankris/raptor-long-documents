@@ -1,0 +1,22 @@
+# Experiment 074 round 5 — preregistration
+
+Hypothesis: RAPTOR hierarchical summary retrieval improves Grok multiple-choice accuracy over flat retrieval at a fixed 1,200 context-token ceiling per question. Public QuALITY validation; exact article SHA256 order; include every question in each article until at least 600 questions (minimum 400 if time expires). No outcome-dependent exclusions or stopping. First 40 questions are a parsing pilot and remain in the final sample. Their article is completed in the main run.
+
+Changed from rounds 2–4: CPU embeddings and Grok CLI summaries/reader replace fragile Colab GPU transport and the 8B reader; evidence budget drops from 1,500 to 1,200 tokens; equivalence margin widens to five percentage points. Five points is the minimum benefit considered worth additional summarization calls, latency and index storage in this constrained retrieval task. This tests this operational claim, not equality or book-length generalization.
+
+## Fixed decision rule (before calls)
+Primary paired accuracy difference RAPTOR minus flat. Article-cluster percentile bootstrap: sample articles with replacement, keep all their questions, ratio of correct-difference totals to question totals; 20,000 replicates, seed 74. PROVEN if 95% CI lower bound >0; DISPROVEN if 95% CI upper bound <0; otherwise DISPROVEN (equivalent within margin) if entire 90% CI strictly within ±5 percentage points. Priority in that order. Otherwise STILL INCONCLUSIVE on exhausting the fixed time/sample budget. Report exact McNemar descriptively. No interim efficacy looks.
+
+Planning approximation: paired discordance q=.127 from earlier round, cluster design effect 1.5. At n=600, SE=sqrt(.127*1.5/600)=1.78 points; null equivalence power approximately 2 Phi(5/1.78−1.645)−1=75.6%; superiority power for +5 points approximately 80%. At n=400 equivalence power about 48%. These assumptions may fail; no guarantee of a conclusive result. Complete article may exceed n=600 slightly. Fixed maximum ~4 hours from initial setup; no expansion after inspecting effects.
+
+## Implementation and recovery
+100-word leaves; normalized bge-small-en-v1.5 embeddings on CPU; deterministic KMeans clusters about five nodes, up to three summary levels; Grok summaries cached by prompt hash. Collapsed-tree cosine retrieval versus identical leaf-only retrieval. Query includes question/options, never gold. Evidence tokenization uses cl100k_base as a declared proxy (Grok tokenizer unavailable), strictly <=1,200 tokens including separators in both arms. Reader calls contain ~20 independent questions of one arm, identical instructions; no tools/web; default thinking; model requested grok-4.7-build. Record actual model identity and any alias issue. Summaries do not see questions or answers. Cache every raw response, prompt, usage and parsed output atomically; after each batch all outputs already reside locally. No Colab transfers apply.
+
+Resume: source /workspace/tools/setup.sh; /workspace/tools/mlenv/bin/python scripts/run.py. Existing successful call hashes and completed article files are reused; failed calls retained with attempt suffix. An advisory lock prevents duplicate runs. Attempts ledger records starts, checkpoints and failures. Original folders read only. No Claude, no secondary Codex account, no subagents.
+
+GPU type: none (CPU-only design). CU used: **0**. No Colab allocation is requested; maximum 5 CU satisfied. Grok dollar usage will be summed from raw CLI usage rather than estimated from account-wide changes.
+
+## Model selector compatibility, before experimental calls
+The CLI rejects the literal selector `grok-4.7-build`, but a one-line compatibility probe with the accepted selector `grok-4.7` reports `modelUsage.grok-4.7-build`. Thus use `--model grok-4.7` to invoke the exact requested backend; default thinking is preserved. Raw probes and available-model list are saved. The pending model-choice question was resolved by direct backend identity evidence, without changing the reader.
+
+Data acquisition: official public QuALITY v1.0.1 `htmlstripped.dev` file from https://github.com/nyu-mll/quality (raw source retained). Flatten each article's questions in file order, `gold_label - 1` for zero-index scoring, then group identical article text and sort its SHA256. This is the validation split used by the emozilla/quality mirror; official source avoids mirror setup delays.
