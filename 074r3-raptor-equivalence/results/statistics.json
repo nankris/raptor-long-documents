@@ -1,0 +1,30 @@
+{
+  "n": 239,
+  "documents": 13,
+  "flat_correct": 159,
+  "raptor_correct": 159,
+  "flat_accuracy": 0.6652719665271967,
+  "raptor_accuracy": 0.6652719665271967,
+  "difference_pp": 0.0,
+  "question_95": [
+    -4.602510460251046,
+    4.602510460251046
+  ],
+  "cluster_95": [
+    -5.508474576271186,
+    4.958677685950414
+  ],
+  "question_90": [
+    -3.765690376569038,
+    3.765690376569038
+  ],
+  "cluster_90": [
+    -4.621848739495799,
+    4.166666666666666
+  ],
+  "raptor_only": 16,
+  "flat_only": 16,
+  "mcnemar_p": 1.0,
+  "verdict": "STILL INCONCLUSIVE",
+  "reason": "fixed compute/time budget exhausted before either endpoint established"
+}

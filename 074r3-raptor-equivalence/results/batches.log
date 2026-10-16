@@ -1,0 +1,155 @@
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+{"completed_articles": 1, "total_articles": 115, "last_seconds": 48.19884943962097, "elapsed": 144.9616105556488}
+{"completed_articles": 2, "total_articles": 115, "last_seconds": 75.71837115287781, "elapsed": 232.68466997146606}
+{"completed_articles": 3, "total_articles": 115, "last_seconds": 45.14158535003662, "elapsed": 285.2497727870941}
+{"completed_articles": 4, "total_articles": 115, "last_seconds": 57.598703384399414, "elapsed": 363.27361035346985}
+[0;31m---------------------------------------------------------------------------[0m[0;31mOutOfMemoryError[0m                          Traceback (most recent call last)[0;32m/tmp/ipykernel_2683/2903847450.py[0m in [0;36m<cell line: 0>[0;34m()[0m
+[1;32m     41[0m  [0mprint[0m[0;34m([0m[0;34m'ALL_DONE'[0m[0;34m,[0m[0mflush[0m[0;34m=[0m[0;32mTrue[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     42[0m [0;34m[0m[0m
+[0;32m---> 43[0;31m [0mstep[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m/tmp/ipykernel_2683/2903847450.py[0m in [0;36mstep[0;34m()[0m
+[1;32m     11[0m   [0mstart[0m[0;34m=[0m[0mtime[0m[0;34m.[0m[0mtime[0m[0;34m([0m[0;34m)[0m[0;34m;[0m[0mp[0m[0;34m=[0m[0mROOT[0m[0;34m+[0m[0;34m'/trees/'[0m[0;34m+[0m[0maid[0m[0;34m+[0m[0;34m'.json'[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     12[0m   [0;32mif[0m [0mos[0m[0;34m.[0m[0mpath[0m[0;34m.[0m[0mexists[0m[0;34m([0m[0mp[0m[0;34m)[0m[0;34m:[0m[0mnodes[0m[0;34m=[0m[0mjson[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mopen[0m[0;34m([0m[0mp[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 13[0;31m   [0;32melse[0m[0;34m:[0m[0mnodes[0m[0;34m=[0m[0mbuild[0m[0;34m([0m[0ma[0m[0;34m)[0m[0;34m;[0m[0mjson[0m[0;34m.[0m[0mdump[0m[0;34m([0m[0mnodes[0m[0;34m,[0m[0mopen[0m[0;34m([0m[0mp[0m[0;34m,[0m[0;34m'w'[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     14[0m   [0mep[0m[0;34m=[0m[0mROOT[0m[0;34m+[0m[0;34m'/trees/'[0m[0;34m+[0m[0maid[0m[0;34m+[0m[0;34m'.npy'[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     15[0m   [0;32mif[0m [0mos[0m[0;34m.[0m[0mpath[0m[0;34m.[0m[0mexists[0m[0;34m([0m[0mep[0m[0;34m)[0m[0;34m:[0m[0mne[0m[0;34m=[0m[0mnp[0m[0;34m.[0m[0mload[0m[0;34m([0m[0mep[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/tmp/ipykernel_2683/626926124.py[0m in [0;36mbuild[0;34m(a)[0m
+[1;32m     54[0m     [0mpart[0m[0;34m.[0m[0mappend[0m[0;34m([0m[0mj[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     55[0m    [0;32mif[0m [0mpart[0m[0;34m:[0m[0mparts[0m[0;34m.[0m[0mappend[0m[0;34m([0m[0mpart[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 56[0;31m   [0mcur[0m[0;34m=[0m[0mgen[0m[0;34m([0m[0;34m[[0m[0;34m'Write a concise summary (under 100 words) of the following passages, keeping key facts, names and events.\n\n'[0m[0;34m+[0m[0;34m'\n\n'[0m[0;34m.[0m[0mjoin[0m[0;34m([0m[0mcur[0m[0;34m[[0m[0mi[0m[0;34m][0m [0;32mfor[0m [0mi[0m [0;32min[0m [0mg[0m[0;34m)[0m [0;32mfor[0m [0mg[0m [0;32min[0m [0mparts[0m[0;34m][0m[0;34m)[0m[0;34m;[0m[0mnodes[0m[0;34m.[0m[0mextend[0m[0;34m([0m[0;34m([0m[0mx[0m[0;34m,[0m[0mlvl[0m[0;34m)[0m [0;32mfor[0m [0mx[0m [0;32min[0m [0mcur[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     57[0m  [0;32mreturn[0m [0mnodes[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     58[0m [0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py[0m in [0;36mdecorate_context[0;34m(*args, **kwargs)[0m
+[1;32m    122[0m         [0;31m# pyrefly: ignore [bad-context-manager][0m[0;34m[0m[0;34m[0m[0m
+[1;32m    123[0m         [0;32mwith[0m [0mctx_factory[0m[0;34m([0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 124[0;31m             [0;32mreturn[0m [0mfunc[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    125[0m [0;34m[0m[0m
+[1;32m    126[0m     [0;32mreturn[0m [0mdecorate_context[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/tmp/ipykernel_2683/626926124.py[0m in [0;36mgen[0;34m(ps)[0m
+[1;32m     27[0m  [0;32mfor[0m [0mi[0m [0;32min[0m [0mrange[0m[0;34m([0m[0;36m0[0m[0;34m,[0m[0mlen[0m[0;34m([0m[0mps[0m[0;34m)[0m[0;34m,[0m[0;36m8[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     28[0m   [0menc[0m[0;34m=[0m[0mtok[0m[0;34m([0m[0;34m[[0m[0mchat[0m[0;34m([0m[0mp[0m[0;34m)[0m [0;32mfor[0m [0mp[0m [0;32min[0m [0mps[0m[0;34m[[0m[0mi[0m[0;34m:[0m[0mi[0m[0;34m+[0m[0;36m8[0m[0;34m][0m[0;34m][0m[0;34m,[0m[0mreturn_tensors[0m[0;34m=[0m[0;34m'pt'[0m[0;34m,[0m[0mpadding[0m[0;34m=[0m[0;32mTrue[0m[0;34m)[0m[0;34m.[0m[0mto[0m[0;34m([0m[0;34m'cuda'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 29[0;31m   [0mz[0m[0;34m=[0m[0mllm[0m[0;34m.[0m[0mgenerate[0m[0;34m([0m[0;34m**[0m[0menc[0m[0;34m,[0m[0mmax_new_tokens[0m[0;34m=[0m[0;36m150[0m[0;34m,[0m[0mdo_sample[0m[0;34m=[0m[0;32mFalse[0m[0;34m,[0m[0mpad_token_id[0m[0;34m=[0m[0mtok[0m[0;34m.[0m[0meos_token_id[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     30[0m   [0mout[0m[0;34m.[0m[0mextend[0m[0;34m([0m[0mtok[0m[0;34m.[0m[0mbatch_decode[0m[0;34m([0m[0mz[0m[0;34m[[0m[0;34m:[0m[0;34m,[0m[0menc[0m[0;34m.[0m[0minput_ids[0m[0;34m.[0m[0mshape[0m[0;34m[[0m[0;36m1[0m[0;34m][0m[0;34m:[0m[0;34m][0m[0;34m,[0m[0mskip_special_tokens[0m[0;34m=[0m[0;32mTrue[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     31[0m  [0;32mreturn[0m [0mout[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py[0m in [0;36mdecorate_context[0;34m(*args, **kwargs)[0m
+[1;32m    122[0m         [0;31m# pyrefly: ignore [bad-context-manager][0m[0;34m[0m[0;34m[0m[0m
+[1;32m    123[0m         [0;32mwith[0m [0mctx_factory[0m[0;34m([0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 124[0;31m             [0;32mreturn[0m [0mfunc[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    125[0m [0;34m[0m[0m
+[1;32m    126[0m     [0;32mreturn[0m [0mdecorate_context[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/transformers/generation/utils.py[0m in [0;36mgenerate[0;34m(self, inputs, generation_config, logits_processor, stopping_criteria, prefix_allowed_tokens_fn, synced_gpus, assistant_model, streamer, negative_prompt_ids, negative_prompt_attention_mask, use_model_defaults, custom_generate, **kwargs)[0m
+[1;32m   2564[0m [0;34m[0m[0m
+[1;32m   2565[0m         [0;31m# 9. Call generation mode[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 2566[0;31m         result = decoding_method(
+[0m[1;32m   2567[0m             [0mself[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   2568[0m             [0minput_ids[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/transformers/generation/utils.py[0m in [0;36m_sample[0;34m(self, input_ids, logits_processor, stopping_criteria, generation_config, synced_gpus, streamer, **model_kwargs)[0m
+[1;32m   2784[0m [0;34m[0m[0m
+[1;32m   2785[0m             [0;32mif[0m [0mis_prefill[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 2786[0;31m                 [0moutputs[0m [0;34m=[0m [0mself[0m[0;34m([0m[0;34m**[0m[0mmodel_inputs[0m[0;34m,[0m [0mreturn_dict[0m[0;34m=[0m[0;32mTrue[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   2787[0m                 [0mis_prefill[0m [0;34m=[0m [0;32mFalse[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   2788[0m             [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py[0m in [0;36m_wrapped_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1777[0m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_compiled_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m  [0;31m# type: ignore[misc][0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1778[0m         [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 1779[0;31m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1780[0m [0;34m[0m[0m
+[1;32m   1781[0m     [0;31m# torchrec tests the code consistency with the following code[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py[0m in [0;36m_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1788[0m                 [0;32mor[0m [0m_global_backward_pre_hooks[0m [0;32mor[0m [0m_global_backward_hooks[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1789[0m                 or _global_forward_hooks or _global_forward_pre_hooks):
+[0;32m-> 1790[0;31m             [0;32mreturn[0m [0mforward_call[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1791[0m [0;34m[0m[0m
+[1;32m   1792[0m         [0mresult[0m [0;34m=[0m [0;32mNone[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py[0m in [0;36mwrapper[0;34m(self, *args, **kwargs)[0m
+[1;32m    916[0m         [0;32mif[0m [0mreturn_dict_passed[0m [0;32mis[0m [0;32mnot[0m [0;32mNone[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    917[0m             [0mreturn_dict[0m [0;34m=[0m [0mreturn_dict_passed[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 918[0;31m         [0moutput[0m [0;34m=[0m [0mfunc[0m[0;34m([0m[0mself[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    919[0m         [0;32mif[0m [0;32mnot[0m [0mreturn_dict[0m [0;32mand[0m [0;32mnot[0m [0misinstance[0m[0;34m([0m[0moutput[0m[0;34m,[0m [0mtuple[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    920[0m             [0moutput[0m [0;34m=[0m [0moutput[0m[0;34m.[0m[0mto_tuple[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py[0m in [0;36mforward[0;34m(self, input_ids, attention_mask, position_ids, past_key_values, inputs_embeds, labels, use_cache, cache_position, logits_to_keep, **kwargs)[0m
+[1;32m    478[0m         [0;34m"Hey, are you conscious? Can you talk to me?\nI'm not conscious, but I can talk to you."[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    479[0m         ```"""
+[0;32m--> 480[0;31m         outputs: BaseModelOutputWithPast = self.model(
+[0m[1;32m    481[0m             [0minput_ids[0m[0;34m=[0m[0minput_ids[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    482[0m             [0mattention_mask[0m[0;34m=[0m[0mattention_mask[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py[0m in [0;36m_wrapped_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1777[0m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_compiled_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m  [0;31m# type: ignore[misc][0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1778[0m         [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 1779[0;31m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1780[0m [0;34m[0m[0m
+[1;32m   1781[0m     [0;31m# torchrec tests the code consistency with the following code[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py[0m in [0;36m_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1788[0m                 [0;32mor[0m [0m_global_backward_pre_hooks[0m [0;32mor[0m [0m_global_backward_hooks[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1789[0m                 or _global_forward_hooks or _global_forward_pre_hooks):
+[0;32m-> 1790[0;31m             [0;32mreturn[0m [0mforward_call[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1791[0m [0;34m[0m[0m
+[1;32m   1792[0m         [0mresult[0m [0;34m=[0m [0;32mNone[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py[0m in [0;36mwrapper[0;34m(self, *args, **kwargs)[0m
+[1;32m   1070[0m [0;34m[0m[0m
+[1;32m   1071[0m             [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 1072[0;31m                 [0moutputs[0m [0;34m=[0m [0mfunc[0m[0;34m([0m[0mself[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1073[0m             [0;32mexcept[0m [0mTypeError[0m [0;32mas[0m [0moriginal_exception[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1074[0m                 [0;31m# If we get a TypeError, it's possible that the model is not receiving the recordable kwargs correctly.[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py[0m in [0;36mforward[0;34m(self, input_ids, attention_mask, position_ids, past_key_values, inputs_embeds, use_cache, cache_position, **kwargs)[0m
+[1;32m    408[0m [0;34m[0m[0m
+[1;32m    409[0m         [0;32mfor[0m [0mdecoder_layer[0m [0;32min[0m [0mself[0m[0;34m.[0m[0mlayers[0m[0;34m[[0m[0;34m:[0m [0mself[0m[0;34m.[0m[0mconfig[0m[0;34m.[0m[0mnum_hidden_layers[0m[0;34m][0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 410[0;31m             hidden_states = decoder_layer(
+[0m[1;32m    411[0m                 [0mhidden_states[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    412[0m                 [0mattention_mask[0m[0;34m=[0m[0mcausal_mask_mapping[0m[0;34m[[0m[0mdecoder_layer[0m[0;34m.[0m[0mattention_type[0m[0;34m][0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py[0m in [0;36m__call__[0;34m(self, *args, **kwargs)[0m
+[1;32m     92[0m [0;34m[0m[0m
+[1;32m     93[0m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_gradient_checkpointing_func[0m[0;34m([0m[0mpartial[0m[0;34m([0m[0msuper[0m[0;34m([0m[0;34m)[0m[0;34m.[0m[0m__call__[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m,[0m [0;34m*[0m[0margs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 94[0;31m         [0;32mreturn[0m [0msuper[0m[0;34m([0m[0;34m)[0m[0;34m.[0m[0m__call__[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     95[0m [0;34m[0m[0m
+[1;32m     96[0m [0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py[0m in [0;36m_wrapped_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1777[0m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_compiled_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m  [0;31m# type: ignore[misc][0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1778[0m         [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 1779[0;31m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1780[0m [0;34m[0m[0m
+[1;32m   1781[0m     [0;31m# torchrec tests the code consistency with the following code[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py[0m in [0;36m_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1788[0m                 [0;32mor[0m [0m_global_backward_pre_hooks[0m [0;32mor[0m [0m_global_backward_hooks[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1789[0m                 or _global_forward_hooks or _global_forward_pre_hooks):
+[0;32m-> 1790[0;31m             [0;32mreturn[0m [0mforward_call[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1791[0m [0;34m[0m[0m
+[1;32m   1792[0m         [0mresult[0m [0;34m=[0m [0;32mNone[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/transformers/utils/deprecation.py[0m in [0;36mwrapped_func[0;34m(*args, **kwargs)[0m
+[1;32m    170[0m                 [0mwarnings[0m[0;34m.[0m[0mwarn[0m[0;34m([0m[0mmessage[0m[0;34m,[0m [0mFutureWarning[0m[0;34m,[0m [0mstacklevel[0m[0;34m=[0m[0;36m2[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    171[0m [0;34m[0m[0m
+[0;32m--> 172[0;31m             [0;32mreturn[0m [0mfunc[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    173[0m [0;34m[0m[0m
+[1;32m    174[0m         [0;32mreturn[0m [0mwrapped_func[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py[0m in [0;36mforward[0;34m(self, hidden_states, attention_mask, position_ids, past_key_values, use_cache, cache_position, position_embeddings, **kwargs)[0m
+[1;32m    273[0m         [0mresidual[0m [0;34m=[0m [0mhidden_states[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    274[0m         [0mhidden_states[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0mpost_attention_layernorm[0m[0;34m([0m[0mhidden_states[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 275[0;31m         [0mhidden_states[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0mmlp[0m[0;34m([0m[0mhidden_states[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    276[0m         [0mhidden_states[0m [0;34m=[0m [0mresidual[0m [0;34m+[0m [0mhidden_states[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    277[0m         [0;32mreturn[0m [0mhidden_states[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py[0m in [0;36m_wrapped_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1777[0m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_compiled_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m  [0;31m# type: ignore[misc][0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1778[0m         [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 1779[0;31m             [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_call_impl[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1780[0m [0;34m[0m[0m
+[1;32m   1781[0m     [0;31m# torchrec tests the code consistency with the following code[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py[0m in [0;36m_call_impl[0;34m(self, *args, **kwargs)[0m
+[1;32m   1788[0m                 [0;32mor[0m [0m_global_backward_pre_hooks[0m [0;32mor[0m [0m_global_backward_hooks[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1789[0m                 or _global_forward_hooks or _global_forward_pre_hooks):
+[0;32m-> 1790[0;31m             [0;32mreturn[0m [0mforward_call[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1791[0m [0;34m[0m[0m
+[1;32m   1792[0m         [0mresult[0m [0;34m=[0m [0;32mNone[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py[0m in [0;36mforward[0;34m(self, x)[0m
+[1;32m     80[0m [0;34m[0m[0m
+[1;32m     81[0m     [0;32mdef[0m [0mforward[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mx[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 82[0;31m         [0mdown_proj[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0mdown_proj[0m[0;34m([0m[0mself[0m[0;34m.[0m[0mact_fn[0m[0;34m([0m[0mself[0m[0;34m.[0m[0mgate_proj[0m[0;34m([0m[0mx[0m[0;34m)[0m[0;34m)[0m [0;34m*[0m [0mself[0m[0;34m.[0m[0mup_proj[0m[0;34m([0m[0mx[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     83[0m         [0;32mreturn[0m [0mdown_proj[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     84[0m [0;34m[0m[0m
+[0;31mOutOfMemoryError[0m: CUDA out of memory. Tried to allocate 534.00 MiB. GPU 0 has a total capacity of 22.03 GiB of which 37.12 MiB is free. Including non-PyTorch memory, this process has 21.99 GiB memory in use. Of the allocated memory 20.32 GiB is allocated by PyTorch, and 1.44 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+{"completed_articles": 5, "total_articles": 115, "last_seconds": 101.03615093231201, "elapsed": 332.1174337863922}
+{"completed_articles": 6, "total_articles": 115, "last_seconds": 79.46638679504395, "elapsed": 431.6263213157654}
+{"completed_articles": 7, "total_articles": 115, "last_seconds": 85.22790908813477, "elapsed": 527.6379578113556}
+{"completed_articles": 8, "total_articles": 115, "last_seconds": 77.62180399894714, "elapsed": 613.1333584785461}
+{"completed_articles": 9, "total_articles": 115, "last_seconds": 92.0888078212738, "elapsed": 724.1389102935791}
+{"completed_articles": 10, "total_articles": 115, "last_seconds": 48.589927673339844, "elapsed": 781.9569656848907}

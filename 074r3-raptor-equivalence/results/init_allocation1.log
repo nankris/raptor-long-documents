@@ -1,0 +1,39 @@
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_auth.py:104: UserWarning: 
+Error while fetching `HF_TOKEN` secret value from your vault: 'Requesting secret HF_TOKEN timed out. Secrets can only be fetched when running from the Colab UI.'.
+You are not authenticated with the Hugging Face Hub in this notebook.
+If the error persists, please let us know by opening an issue on GitHub (https://github.com/huggingface/huggingface_hub/issues/new).
+  warnings.warn(
+tokenizer_config.json: 0.00B [00:00, ?B/s]
+vocab.json: 0.00B [00:00, ?B/s]
+merges.txt: 0.00B [00:00, ?B/s]
+tokenizer.json:   0%|          | 0.00/11.4M [00:00<?, ?B/s]
+config.json:   0%|          | 0.00/728 [00:00<?, ?B/s]
+`torch_dtype` is deprecated! Use `dtype` instead!
+model.safetensors.index.json: 0.00B [00:00, ?B/s]
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]
+model-00003-of-00005.safetensors:   0%|          | 0.00/3.96G [00:00<?, ?B/s]
+model-00002-of-00005.safetensors:   0%|          | 0.00/3.99G [00:00<?, ?B/s]
+model-00005-of-00005.safetensors:   0%|          | 0.00/1.24G [00:00<?, ?B/s]
+model-00004-of-00005.safetensors:   0%|          | 0.00/3.19G [00:00<?, ?B/s]
+model-00001-of-00005.safetensors:   0%|          | 0.00/4.00G [00:00<?, ?B/s]
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]
+generation_config.json:   0%|          | 0.00/239 [00:00<?, ?B/s]
+modules.json:   0%|          | 0.00/349 [00:00<?, ?B/s]
+config_sentence_transformers.json:   0%|          | 0.00/124 [00:00<?, ?B/s]
+README.md: 0.00B [00:00, ?B/s]
+sentence_bert_config.json:   0%|          | 0.00/52.0 [00:00<?, ?B/s]
+config.json:   0%|          | 0.00/743 [00:00<?, ?B/s]
+model.safetensors:   0%|          | 0.00/133M [00:00<?, ?B/s]
+tokenizer_config.json:   0%|          | 0.00/366 [00:00<?, ?B/s]
+vocab.txt: 0.00B [00:00, ?B/s]
+tokenizer.json: 0.00B [00:00, ?B/s]
+special_tokens_map.json:   0%|          | 0.00/125 [00:00<?, ?B/s]
+config.json:   0%|          | 0.00/190 [00:00<?, ?B/s]
+README.md:   0%|          | 0.00/578 [00:00<?, ?B/s]
+data/train-00000-of-00001-0bffe0bf790d89(…):   0%|          | 0.00/7.56M 
+[00:00<?, ?B/s]
+data/validation-00000-of-00001-77baeb953(…):   0%|          | 0.00/6.79M 
+[00:00<?, ?B/s]
+Generating train split:   0%|          | 0/2523 [00:00<?, ? examples/s]
+Generating validation split:   0%|          | 0/2086 [00:00<?, ? examples/s]
+INITIALIZED 2086 115

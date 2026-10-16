@@ -1,0 +1,352 @@
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/urll │
+│ ib3/connectionpool.py:540 in _make_request                                   │
+│                                                                              │
+│    537 │   │                                                                 │
+│    538 │   │   # Receive the response from the server                        │
+│    539 │   │   try:                                                          │
+│ ❱  540 │   │   │   response = conn.getresponse()                             │
+│    541 │   │   except (BaseSSLError, OSError) as e:                          │
+│    542 │   │   │   self._raise_timeout(err=e, url=url,                       │
+│        timeout_value=read_timeout)                                           │
+│    543 │   │   │   raise                                                     │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/urll │
+│ ib3/connection.py:638 in getresponse                                         │
+│                                                                              │
+│    635 │   │   _shutdown = getattr(self.sock, "shutdown", None)              │
+│    636 │   │                                                                 │
+│    637 │   │   # Get the response from http.client.HTTPConnection            │
+│ ❱  638 │   │   httplib_response = super().getresponse()                      │
+│    639 │   │                                                                 │
+│    640 │   │   try:                                                          │
+│    641 │   │   │   assert_header_parsing(httplib_response.msg)               │
+│                                                                              │
+│ /usr/local/lib/python3.12/http/client.py:1478 in getresponse                 │
+│                                                                              │
+│   1475 │   │                                                                 │
+│   1476 │   │   try:                                                          │
+│   1477 │   │   │   try:                                                      │
+│ ❱ 1478 │   │   │   │   response.begin()                                      │
+│   1479 │   │   │   except ConnectionError:                                   │
+│   1480 │   │   │   │   self.close()                                          │
+│   1481 │   │   │   │   raise                                                 │
+│                                                                              │
+│ /usr/local/lib/python3.12/http/client.py:343 in begin                        │
+│                                                                              │
+│    340 │   │                                                                 │
+│    341 │   │   # read until we get a non-100 response                        │
+│    342 │   │   for _ in range(_MAXINTERIMRESPONSES):                         │
+│ ❱  343 │   │   │   version, status, reason = self._read_status()             │
+│    344 │   │   │   if status != CONTINUE:                                    │
+│    345 │   │   │   │   break                                                 │
+│    346 │   │   │   # skip the header from the 100 response                   │
+│                                                                              │
+│ /usr/local/lib/python3.12/http/client.py:304 in _read_status                 │
+│                                                                              │
+│    301 │   │   self.will_close = _UNKNOWN      # conn will close at end of   │
+│        response                                                              │
+│    302 │                                                                     │
+│    303 │   def _read_status(self):                                           │
+│ ❱  304 │   │   line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")      │
+│    305 │   │   if len(line) > _MAXLINE:                                      │
+│    306 │   │   │   raise LineTooLong("status line")                          │
+│    307 │   │   if self.debuglevel > 0:                                       │
+│                                                                              │
+│ /usr/local/lib/python3.12/socket.py:720 in readinto                          │
+│                                                                              │
+│   717 │   │   │   raise OSError("cannot read from timed out object")         │
+│   718 │   │   while True:                                                    │
+│   719 │   │   │   try:                                                       │
+│ ❱ 720 │   │   │   │   return self._sock.recv_into(b)                         │
+│   721 │   │   │   except timeout:                                            │
+│   722 │   │   │   │   self._timeout_occurred = True                          │
+│   723 │   │   │   │   raise                                                  │
+│                                                                              │
+│ /usr/local/lib/python3.12/ssl.py:1264 in recv_into                           │
+│                                                                              │
+│   1261 │   │   │   │   raise ValueError(                                     │
+│   1262 │   │   │   │     "non-zero flags not allowed in calls to recv_into() │
+│        on %s" %                                                              │
+│   1263 │   │   │   │     self.__class__)                                     │
+│ ❱ 1264 │   │   │   return self.read(nbytes, buffer)                          │
+│   1265 │   │   else:                                                         │
+│   1266 │   │   │   return super().recv_into(buffer, nbytes, flags)           │
+│   1267                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.12/ssl.py:1116 in read                                │
+│                                                                              │
+│   1113 │   │   │   raise ValueError("Read on closed or unwrapped SSL         │
+│        socket.")                                                             │
+│   1114 │   │   try:                                                          │
+│   1115 │   │   │   if buffer is not None:                                    │
+│ ❱ 1116 │   │   │   │   return self._sslobj.read(len, buffer)                 │
+│   1117 │   │   │   else:                                                     │
+│   1118 │   │   │   │   return self._sslobj.read(len)                         │
+│   1119 │   │   except SSLError as x:                                         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/requ │
+│ ests/adapters.py:696 in send                                                 │
+│                                                                              │
+│   693 │   │   │   resolved_timeout = TimeoutSauce(connect=timeout,           │
+│       read=timeout)                                                          │
+│   694 │   │                                                                  │
+│   695 │   │   try:                                                           │
+│ ❱ 696 │   │   │   resp = conn.urlopen(                                       │
+│   697 │   │   │   │   method=request.method,                                 │
+│   698 │   │   │   │   url=url,                                               │
+│   699 │   │   │   │   body=request.body,  # type: ignore[arg-type]  #        │
+│       urllib3 stubs don't accept Iterable[bytes | str]                       │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/urll │
+│ ib3/connectionpool.py:847 in urlopen                                         │
+│                                                                              │
+│    844 │   │   │   elif isinstance(new_e, (OSError, HTTPException)):         │
+│    845 │   │   │   │   new_e = ProtocolError("Connection aborted.", new_e)   │
+│    846 │   │   │                                                             │
+│ ❱  847 │   │   │   retries = retries.increment(                              │
+│    848 │   │   │   │   method, url, error=new_e, _pool=self,                 │
+│        _stacktrace=sys.exc_info()[2]                                         │
+│    849 │   │   │   )                                                         │
+│    850 │   │   │   retries.sleep()                                           │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/urll │
+│ ib3/util/retry.py:510 in increment                                           │
+│                                                                              │
+│   507 │   │   elif error and self._is_read_error(error):                     │
+│   508 │   │   │   # Read retry?                                              │
+│   509 │   │   │   if read is False or method is None or not                  │
+│       self._is_method_retryable(method):                                     │
+│ ❱ 510 │   │   │   │   raise reraise(type(error), error, _stacktrace)         │
+│   511 │   │   │   elif read is not None:                                     │
+│   512 │   │   │   │   read -= 1                                              │
+│   513                                                                        │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/urll │
+│ ib3/util/util.py:39 in reraise                                               │
+│                                                                              │
+│   36 │   try:                                                                │
+│   37 │   │   if value.__traceback__ is not tb:                               │
+│   38 │   │   │   raise value.with_traceback(tb)                              │
+│ ❱ 39 │   │   raise value                                                     │
+│   40 │   finally:                                                            │
+│   41 │   │   value = None  # type: ignore[assignment]                        │
+│   42 │   │   tb = None                                                       │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/urll │
+│ ib3/connectionpool.py:793 in urlopen                                         │
+│                                                                              │
+│    790 │   │   │   response_conn = conn if not release_conn else None        │
+│    791 │   │   │                                                             │
+│    792 │   │   │   # Make the request on the HTTPConnection object           │
+│ ❱  793 │   │   │   response = self._make_request(                            │
+│    794 │   │   │   │   conn,                                                 │
+│    795 │   │   │   │   method,                                               │
+│    796 │   │   │   │   url,                                                  │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/urll │
+│ ib3/connectionpool.py:542 in _make_request                                   │
+│                                                                              │
+│    539 │   │   try:                                                          │
+│    540 │   │   │   response = conn.getresponse()                             │
+│    541 │   │   except (BaseSSLError, OSError) as e:                          │
+│ ❱  542 │   │   │   self._raise_timeout(err=e, url=url,                       │
+│        timeout_value=read_timeout)                                           │
+│    543 │   │   │   raise                                                     │
+│    544 │   │                                                                 │
+│    545 │   │   # Set properties that are used by the pooling layer.          │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/urll │
+│ ib3/connectionpool.py:373 in _raise_timeout                                  │
+│                                                                              │
+│    370 │   │   """Is the error actually a timeout? Will raise a ReadTimeout  │
+│        or pass"""                                                            │
+│    371 │   │                                                                 │
+│    372 │   │   if isinstance(err, SocketTimeout):                            │
+│ ❱  373 │   │   │   raise ReadTimeoutError(                                   │
+│    374 │   │   │   │   self, url, f"Read timed out. (read                    │
+│        timeout={timeout_value})"                                             │
+│    375 │   │   │   ) from err                                                │
+│    376                                                                       │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ReadTimeoutError: 
+HTTPSConnectionPool(host='8080-gpu-l4-s-kkb-ass1a0-3dg2dn0pxq22x-a.asia-southeas
+t1-0.prod.colab.dev', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/cola │
+│ b_cli/commands/execution.py:227 in exec_command                              │
+│                                                                              │
+│   224 │   │   │   )                                                          │
+│   225 │   │   │   state.prune_session(name)                                  │
+│   226 │   │   │   raise typer.Exit(1)                                        │
+│ ❱ 227 │   │   raise e                                                        │
+│   228 │                                                                      │
+│   229 │   try:                                                               │
+│   230 │   │   is_nb = file and file.endswith(".ipynb")                       │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/cola │
+│ b_cli/commands/execution.py:217 in exec_command                              │
+│                                                                              │
+│   214 │   )                                                                  │
+│   215 │   try:                                                               │
+│   216 │   │   # Ensure we are in /content which is the standard Colab        │
+│       working directory                                                      │
+│ ❱ 217 │   │   runtime.execute_code(                                          │
+│   218 │   │   │   "import os; os.makedirs('/content', exist_ok=True);        │
+│       os.chdir('/content')"                                                  │
+│   219 │   │   )                                                              │
+│   220 │   except Exception as e:                                             │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/cola │
+│ b_cli/runtime.py:243 in execute_code                                         │
+│                                                                              │
+│   240 │   │   │   # execute_interactive returns the raw reply message        │
+│   241 │   │   │   reply_content = reply["content"] if reply else {"status":  │
+│       "error"}                                                               │
+│   242 │   │   else:                                                          │
+│ ❱ 243 │   │   │   reply = self.kernel_client.execute(code, **kwargs)         │
+│   244 │   │   │   if not reply:                                              │
+│   245 │   │   │   │   return []                                              │
+│   246 │   │   │   outputs = reply.get("outputs", [])                         │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/cola │
+│ b_cli/runtime.py:168 in kernel_client                                        │
+│                                                                              │
+│   165 │   │   │   │   │   │   )                                              │
+│   166 │   │   │   │   │   │   time.sleep(sleep_time)                         │
+│   167 │   │   │   │   │   else:                                              │
+│ ❱ 168 │   │   │   │   │   │   raise last_err                                 │
+│   169 │   │   │   │   except Exception as e:                                 │
+│   170 │   │   │   │   │   raise e                                            │
+│   171                                                                        │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/cola │
+│ b_cli/runtime.py:122 in kernel_client                                        │
+│                                                                              │
+│   119 │   │   │   │   │   else:                                              │
+│   120 │   │   │   │   │   │   _ClientCls =                                   │
+│       jupyter_kernel_client.JupyterKernelClient                              │
+│   121 │   │   │   │   │   │   _token_kw = "token"                            │
+│ ❱ 122 │   │   │   │   │   self._kernel_client = _ClientCls(                  │
+│   123 │   │   │   │   │   │   server_url=self.url,                           │
+│   124 │   │   │   │   │   │   **{_token_kw: self.token},                     │
+│   125 │   │   │   │   │   │   kernel_id=self.kernel_id,                      │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/jupy │
+│ ter_kernel_client/client.py:166 in __init__                                  │
+│                                                                              │
+│   163 │   │   self, kernel_id: str | None = None, log: logging.Logger | None │
+│       = None, **kwargs                                                       │
+│   164 │   ) -> None:                                                         │
+│   165 │   │   super().__init__(log=log or get_logger())                      │
+│ ❱ 166 │   │   self._manager = self.kernel_manager_class(parent=self,         │
+│       kernel_id=kernel_id, **kwargs)                                         │
+│   167 │   │   # Set it after the manager as if a kernel_id is provided,      │
+│   168 │   │   # we will try to connect to it.                                │
+│   169 │   │   self._own_kernel = self._manager.kernel is None                │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/jupy │
+│ ter_kernel_client/manager.py:101 in __init__                                 │
+│                                                                              │
+│    98 │   │   │   │   "execution_state": "unknown",                          │
+│    99 │   │   │   │   "last_activity": datetime.datetime.strftime(utcnow(),  │
+│       "%Y-%m-%dT%H:%M:%S.%fZ"),                                              │
+│   100 │   │   │   }                                                          │
+│ ❱ 101 │   │   │   self.refresh_model()                                       │
+│   102 │                                                                      │
+│   103 │   @property                                                          │
+│   104 │   def has_kernel(self):                                              │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/jupy │
+│ ter_kernel_client/manager.py:176 in refresh_model                            │
+│                                                                              │
+│   173 │   │                                                                  │
+│   174 │   │   self.log.debug("Request kernel at: %s", self.kernel_url)       │
+│   175 │   │   try:                                                           │
+│ ❱ 176 │   │   │   response = fetch(self.kernel_url, token=self.token,        │
+│       method="GET", timeout=timeout, headers=self.__extra_headers)           │
+│   177 │   │   except HTTPError as error:                                     │
+│   178 │   │   │   if error.response.status_code == 404:                      │
+│   179 │   │   │   │   self.log.warning("Kernel not found at: %s",            │
+│       self.kernel_url)                                                       │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/jupy │
+│ ter_kernel_client/manager.py:44 in fetch                                     │
+│                                                                              │
+│    41 │   │   headers["Authorization"] = f"Bearer {token}"                   │
+│    42 │   if "timeout" not in kwargs:                                        │
+│    43 │   │   kwargs["timeout"] = REQUEST_TIMEOUT                            │
+│ ❱  44 │   response = f(request, headers=headers, **kwargs)                   │
+│    45 │   response.raise_for_status()                                        │
+│    46 │   return response                                                    │
+│    47                                                                        │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/requ │
+│ ests/api.py:87 in get                                                        │
+│                                                                              │
+│    84 │   :rtype: requests.Response                                          │
+│    85 │   """                                                                │
+│    86 │                                                                      │
+│ ❱  87 │   return request("get", url, params=params, **kwargs)                │
+│    88                                                                        │
+│    89                                                                        │
+│    90 def options(url: _t.UriType, **kwargs: Unpack[_t.RequestKwargs]) ->    │
+│       Response:                                                              │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/requ │
+│ ests/api.py:71 in request                                                    │
+│                                                                              │
+│    68 │   # avoid leaving sockets open which can trigger a ResourceWarning   │
+│       in some                                                                │
+│    69 │   # cases, and look like a memory leak in others.                    │
+│    70 │   with sessions.Session() as session:                                │
+│ ❱  71 │   │   return session.request(method=method, url=url, **kwargs)       │
+│    72                                                                        │
+│    73                                                                        │
+│    74 def get(                                                               │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/requ │
+│ ests/sessions.py:651 in request                                              │
+│                                                                              │
+│   648 │   │   │   "allow_redirects": allow_redirects,                        │
+│   649 │   │   }                                                              │
+│   650 │   │   send_kwargs.update(settings)                                   │
+│ ❱ 651 │   │   resp = self.send(prep, **send_kwargs)                          │
+│   652 │   │                                                                  │
+│   653 │   │   return resp                                                    │
+│   654                                                                        │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/requ │
+│ ests/sessions.py:784 in send                                                 │
+│                                                                              │
+│   781 │   │   start = preferred_clock()                                      │
+│   782 │   │                                                                  │
+│   783 │   │   # Send the request                                             │
+│ ❱ 784 │   │   r = adapter.send(request, **kwargs)                            │
+│   785 │   │                                                                  │
+│   786 │   │   # Total elapsed time of the request (approximately)            │
+│   787 │   │   elapsed = preferred_clock() - start                            │
+│                                                                              │
+│ /workspace/tools/uv-tools/google-colab-cli/lib/python3.12/site-packages/requ │
+│ ests/adapters.py:742 in send                                                 │
+│                                                                              │
+│   739 │   │   │   │   # This branch is for urllib3 versions earlier than     │
+│       v1.22                                                                  │
+│   740 │   │   │   │   raise SSLError(e, request=request)                     │
+│   741 │   │   │   elif isinstance(e, ReadTimeoutError):                      │
+│ ❱ 742 │   │   │   │   raise ReadTimeout(e, request=request)                  │
+│   743 │   │   │   elif isinstance(e, _InvalidHeader):                        │
+│   744 │   │   │   │   raise InvalidHeader(e, request=request)                │
+│   745 │   │   │   else:                                                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ReadTimeout: 
+HTTPSConnectionPool(host='8080-gpu-l4-s-kkb-ass1a0-3dg2dn0pxq22x-a.asia-southeas
+t1-0.prod.colab.dev', port=443): Read timed out. (read timeout=10)

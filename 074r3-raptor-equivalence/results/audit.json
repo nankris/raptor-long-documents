@@ -1,0 +1,22 @@
+{
+  "questions": 239,
+  "articles": 13,
+  "planned_questions": 2086,
+  "planned_articles": 115,
+  "all_complete": false,
+  "article_words_range": [
+    1920,
+    5380
+  ],
+  "article_tokens_range": [
+    2819,
+    8204
+  ],
+  "summary_retrieved_questions": 236,
+  "mean_evidence_tokens": {
+    "flat": 1457.4142259414225,
+    "raptor": 1472.8744769874477
+  },
+  "identical_context_pairs": 3,
+  "predictions_sha256": "5125719c500fe5f20c9ee3d39a748f2fb2bc3199b361b9f5f9abdd209a0cdcec"
+}

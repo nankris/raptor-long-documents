@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2026-10-15T18:16:20.741457+00:00",
+    "event_type": "session_created",
+    "accelerator": "L4"
+  },
+  {
+    "timestamp": "2026-10-15T18:24:11.203244+00:00",
+    "event_type": "session_terminated",
+    "reason": "user_requested"
+  },
+  {
+    "timestamp": "2026-10-15T18:30:21.272112+00:00",
+    "event_type": "session_created",
+    "accelerator": "L4"
+  },
+  {
+    "timestamp": "2026-10-15T18:45:35.440611+00:00",
+    "event_type": "session_terminated",
+    "reason": "user_requested"
+  }
+]

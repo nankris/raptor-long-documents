@@ -1,0 +1,62 @@
+{
+  "events": [
+    {
+      "timestamp": "2026-10-15T18:16:20.741457+00:00",
+      "event_type": "session_created",
+      "accelerator": "L4"
+    },
+    {
+      "timestamp": "2026-10-15T18:24:11.203244+00:00",
+      "event_type": "session_terminated",
+      "reason": "user_requested"
+    },
+    {
+      "timestamp": "2026-10-15T18:30:21.272112+00:00",
+      "event_type": "session_created",
+      "accelerator": "L4"
+    },
+    {
+      "timestamp": "2026-10-15T18:45:35.440611+00:00",
+      "event_type": "session_terminated",
+      "reason": "user_requested"
+    },
+    {
+      "timestamp": "2026-10-15T18:48:48.882849+00:00",
+      "event_type": "session_created",
+      "accelerator": "L4"
+    },
+    {
+      "timestamp": "2026-10-16T00:16:28.027543+00:00",
+      "event_type": "session_terminated",
+      "reason": "pruned"
+    }
+  ],
+  "allocations": [
+    {
+      "start": "2026-10-15T18:16:20.741457+00:00",
+      "end": "2026-10-15T18:24:11.203244+00:00",
+      "seconds": 470.461787,
+      "estimated_cu": 0.20125309777222222,
+      "termination": "user_requested"
+    },
+    {
+      "start": "2026-10-15T18:30:21.272112+00:00",
+      "end": "2026-10-15T18:45:35.440611+00:00",
+      "seconds": 914.168499,
+      "estimated_cu": 0.39106096901666665,
+      "termination": "user_requested"
+    },
+    {
+      "start": "2026-10-15T18:48:48.882849+00:00",
+      "end": "2026-10-16T00:16:28.027543+00:00",
+      "seconds": 19659.144694,
+      "estimated_cu": 8.40974523021111,
+      "termination": "pruned"
+    }
+  ],
+  "rate_cu_per_hour": 1.54,
+  "total_allocation_seconds": 21043.77498,
+  "estimated_cu": 9.002059296999999,
+  "exact_billing_available": false,
+  "caveat": "Pruned timestamp is local stale-session detection; actual remote termination/billing time is unknown. This is an allocation-window estimate, potentially an overestimate. No further allocation authorized under the exhausted budget."
+}
