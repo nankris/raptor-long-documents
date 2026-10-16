@@ -1,0 +1,19 @@
+You are running an ML experiment on a Google Colab GPU with the authenticated `colab` CLI (on PATH; see `colab --help`). Work in the current directory.
+
+Experiment #074, RAPTOR summaries vs flat chunks for long documents. Question: does retrieving from a RAPTOR-style summary tree answer questions about long documents better than retrieving flat chunks?
+- Data: the QuALITY benchmark (long articles, ~5K words, with 4-way multiple-choice questions). Use a public Hugging Face copy (e.g. `emozilla/quality`; if that fails, search the hub for another QuALITY copy). Use the validation split: pick 8 distinct articles (fixed seed 0) and ALL their questions (typically 15-20 each).
+- Reader/summariser LLM: the largest instruction model that comfortably runs on the GPU within the budget (e.g. Qwen/Qwen3-4B-Instruct-2507 or Qwen3-4B in fp16/bf16; Qwen3-8B only if it's fast enough). Disable thinking mode. Embeddings: a small sentence-transformers model (e.g. BAAI/bge-small-en-v1.5).
+- Arms (same reader, same ~1,500-token retrieved-context budget, same prompt asking for the option letter only):
+  1. flat: chunk each article into ~100-word chunks, retrieve top-k by embedding similarity to question+options.
+  2. raptor: build a tree per article: leaf = the same chunks; cluster (e.g. Gaussian mixture or k-means over embeddings, groups of ~5) and summarise each cluster with the LLM, repeat 2-3 levels up to a root; retrieve top-k over ALL nodes (collapsed tree).
+  3. full: the whole article in context (if it fits) as an upper bound.
+  Also report the zero-context (question only) baseline if cheap.
+- Report per arm: accuracy, n questions, mean context tokens, and time to build the trees (summary calls, seconds).
+
+Hard rules:
+1. GPU: try `colab new -s claude-074 --gpu L4` first; if refused after 3 tries 60 s apart, try `--gpu T4` (up to 5 tries 60 s apart). Never A100. Always pass `-s claude-074`; never touch, stop or exec in any other session.
+2. GPU budget: at most 75 minutes from `colab new` to `colab stop` (if on L4, at most 60 minutes). If running long, cut to fewer articles rather than exceed it. Write a progress log and estimate time early.
+3. Your Bash calls time out after ~10 min: run the job as a background process on the VM and poll briefly; use `colab exec` with short snippets. Peft/torchao not needed; if torchao import errors appear, `pip uninstall -y torchao` on the VM.
+4. When finished or on failure: download results to `./results/` (`runs.json` with per-arm metrics and per-question predictions, the script, progress log), save the script locally as `./raptor.py`, then `colab stop -s claude-074` and confirm with `colab sessions` that it's gone. Mandatory.
+5. Write `./results/summary.md`: table of results, model names and sizes, GPU type, and exact GPU minutes (start to stop).
+Do not install anything locally. Keep messages brief.
